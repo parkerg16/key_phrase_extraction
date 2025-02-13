@@ -1,6 +1,7 @@
 import os
 from keybert import KeyBERT
 from colorama import Fore, init
+
 init(autoreset=True)
 
 # Initialize KeyBERT with the default model
