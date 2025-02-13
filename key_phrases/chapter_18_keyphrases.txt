@@ -1,0 +1,100 @@
+decision trees: 0.6455
+grow forest: 0.3939
+sklearn preprocessing: 0.2847
+overfitting regularized: 0.2618
+look predicted: 0.2486
+tree_clf out_file: 0.2403
+max_leaf_nodes train: 0.2194
+model performance: 0.1867
+sensitivity training: 0.1776
+using feature: 0.1766
+things: 0.1567
+iris flower: 0.1476
+black box: 0.1451
+dataset max_depth: 0.1403
+majority vote: 0.139
+california housing: 0.1384
+772 algorithm: 0.1368
+gridsearchcv class: 0.1329
+greedily searches: 0.1303
+chance called: 0.1256
+unregularized regression: 0.1242
+y_moons_test: 0.1238
+squared: 0.1147
+tasks multioutput: 0.1136
+homl info: 0.1131
+steps use: 0.1114
+data contrast: 0.1106
+shoes couch: 0.1099
+cross validation: 0.1071
+fitting complex: 0.105
+systems explain: 0.1034
+learn shufflesplit: 0.0968
+mouth nose: 0.094
+measures gini: 0.0935
+badly just: 0.0933
+start root: 0.0926
+log binary: 0.0922
+data rotates: 0.0892
+logic sub: 0.0834
+subsets recursively: 0.0832
+level does: 0.0818
+907 093: 0.0798
+including shannon: 0.079
+congratulations: 0.0776
+notebook graphviz: 0.0771
+impurity node: 0.0754
+humans: 0.0731
+main difference: 0.0727
+powerful types: 0.072
+setosa: 0.0716
+intractable small: 0.0716
+10000 noise: 0.0666
+major open: 0.0666
+sebastian raschka: 0.0657
+hyperparameters depend: 0.0632
+exercises available: 0.0625
+add: 0.0619
+tk mleftmmseleft: 0.058
+boundaries splits: 0.0568
+interesting: 0.0568
+increasing risk: 0.0548
+know contributed: 0.0527
+degree freedom: 0.0508
+array: 0.0485
+discussing train: 0.0469
+pca chapter: 0.0451
+frequently used: 0.0437
+id3 produce: 0.042
+cm class_names: 0.0379
+minimizes mse: 0.0376
+domains including: 0.0358
+tip: 0.034
+aims creating: 0.0326
+verified polynomial: 0.0311
+looks unnecessarily: 0.0253
+import make_pipeline: 0.0252
+mode function: 0.0238
+statistically significant: 0.02
+cart cost: 0.0187
+fine tune: 0.0162
+limit problem: 0.0154
+children deleted: 0.0147
+takes hour: 0.0128
+day quantum: 0.0103
+jupyter: 0.007
+number weighted: -0.0002
+linearly separable: -0.0028
+definition: -0.0095
+virginica finally: -0.0121
+rectangle figure: -0.0202
+set random_state: -0.0213
+load display: -0.0262
+convert dot: -0.0381
+content message: -0.0392
+instance returns: -0.0437
+stopping conditions: -0.0451
+formats pdf: -0.0491
+zero molecules: -0.0598
+originated thermodynamics: -0.0707
+petal length: -0.0886
