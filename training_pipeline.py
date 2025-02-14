@@ -1,6 +1,7 @@
 import os
 import glob
 import nltk
+import torch
 from nltk.tokenize import sent_tokenize
 from sentence_transformers import SentenceTransformer, InputExample, losses
 from torch.utils.data import DataLoader
@@ -17,8 +18,8 @@ chunks_folder = "book_chunks"  # adjust if your folder is named differently
 output_model_path = "fine_tuned_model"
 
 # Training parameters
-batch_size = 256
-num_epochs = 10  # Adjust this based on your data size and desired training time
+batch_size = 8
+num_epochs = 1  # Adjust this based on your data size and desired training time
 
 # -------------------------------
 # Step 1: Build Training Examples from Chapters
@@ -54,10 +55,14 @@ print(f"Collected {len(training_examples)} training examples from your chapters.
 model_name = "all-MiniLM-L6-v2"
 model = SentenceTransformer(model_name)
 
-# Move the model to GPU if available
-if model.device.type != "cuda":
-    model = model.to("cuda")
-    print("Model moved to CUDA.")
+# Check if GPU is available and move the model to CPU if available 
+if torch.cuda.is_available():
+    device = torch.device("cuda")
+else:
+    device = torch.device("cpu")
+
+# Move the model to device if available
+model.to(device)
 
 # -------------------------------
 # Step 3: Create DataLoader and Loss Function
