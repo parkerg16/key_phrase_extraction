@@ -1,100 +1,100 @@
-decision trees: 0.6455
-grow forest: 0.3939
-sklearn preprocessing: 0.2847
-overfitting regularized: 0.2618
-look predicted: 0.2486
-tree_clf out_file: 0.2403
-max_leaf_nodes train: 0.2194
-model performance: 0.1867
-sensitivity training: 0.1776
-using feature: 0.1766
-things: 0.1567
-iris flower: 0.1476
-black box: 0.1451
-dataset max_depth: 0.1403
-majority vote: 0.139
-california housing: 0.1384
-772 algorithm: 0.1368
-gridsearchcv class: 0.1329
-greedily searches: 0.1303
-chance called: 0.1256
-unregularized regression: 0.1242
-y_moons_test: 0.1238
-squared: 0.1147
-tasks multioutput: 0.1136
-homl info: 0.1131
-steps use: 0.1114
-data contrast: 0.1106
-shoes couch: 0.1099
-cross validation: 0.1071
-fitting complex: 0.105
-systems explain: 0.1034
-learn shufflesplit: 0.0968
-mouth nose: 0.094
-measures gini: 0.0935
-badly just: 0.0933
-start root: 0.0926
-log binary: 0.0922
-data rotates: 0.0892
-logic sub: 0.0834
-subsets recursively: 0.0832
-level does: 0.0818
-907 093: 0.0798
-including shannon: 0.079
-congratulations: 0.0776
-notebook graphviz: 0.0771
-impurity node: 0.0754
-humans: 0.0731
-main difference: 0.0727
-powerful types: 0.072
-setosa: 0.0716
-intractable small: 0.0716
-10000 noise: 0.0666
-major open: 0.0666
-sebastian raschka: 0.0657
-hyperparameters depend: 0.0632
-exercises available: 0.0625
-add: 0.0619
-tk mleftmmseleft: 0.058
-boundaries splits: 0.0568
-interesting: 0.0568
-increasing risk: 0.0548
-know contributed: 0.0527
-degree freedom: 0.0508
-array: 0.0485
-discussing train: 0.0469
-pca chapter: 0.0451
-frequently used: 0.0437
-id3 produce: 0.042
-cm class_names: 0.0379
-minimizes mse: 0.0376
-domains including: 0.0358
-tip: 0.034
-aims creating: 0.0326
-verified polynomial: 0.0311
-looks unnecessarily: 0.0253
-import make_pipeline: 0.0252
-mode function: 0.0238
-statistically significant: 0.02
-cart cost: 0.0187
-fine tune: 0.0162
-limit problem: 0.0154
-children deleted: 0.0147
-takes hour: 0.0128
-day quantum: 0.0103
-jupyter: 0.007
-number weighted: -0.0002
-linearly separable: -0.0028
-definition: -0.0095
-virginica finally: -0.0121
-rectangle figure: -0.0202
-set random_state: -0.0213
-load display: -0.0262
-convert dot: -0.0381
-content message: -0.0392
-instance returns: -0.0437
-stopping conditions: -0.0451
-formats pdf: -0.0491
-zero molecules: -0.0598
-originated thermodynamics: -0.0707
-petal length: -0.0886
+tree_reg decisiontreeregressor: 0.4004
+random forests: 0.2329
+tip tree: 0.1942
+y_iris visualize: 0.1737
+uses gini: 0.1624
+using scikit: 0.1576
+info colab3: 0.143
+california housing: 0.1367
+limitations decision: 0.1273
+overfitting regularized: 0.1206
+eyes mouth: 0.1187
+log independent: 0.1158
+use versatile: 0.1092
+tasks multioutput: 0.1085
+majority vote: 0.1084
+features evaluate: 0.1027
+interpretation white: 0.0997
+wide obvious: 0.0978
+dealing regression: 0.0958
+shoes couch: 0.0926
+907 093: 0.0896
+moons dataset: 0.0766
+chance called: 0.0737
+children questions: 0.0723
+things easier: 0.0675
+raschka interesting: 0.0649
+including shannon: 0.0643
+way humans: 0.0634
+typically controlled: 0.0623
+higher congratulations: 0.0616
+orthogonal decision: 0.0571
+know rotates: 0.0564
+cart cost: 0.0542
+probably: 0.0523
+theory measures: 0.0513
+structure adapt: 0.0489
+looks unnecessarily: 0.0474
+load display: 0.0472
+use grid: 0.0463
+searches pair: 0.0458
+important domains: 0.0457
+772 algorithm: 0.0448
+box models: 0.0438
+try various: 0.0419
+start root: 0.0392
+greedily: 0.039
+powerful machine: 0.0364
+main difference: 0.0341
+steps use: 0.0327
+opposed: 0.0324
+exercises approximate: 0.0312
+chapter notebook: 0.031
+statistically significant: 0.0303
+splits subsets: 0.0296
+systems explain: 0.0291
+flower want: 0.0289
+impurity equation: 0.0276
+definition file: 0.0256
+polynomial: 0.0243
+reasonably good: 0.0216
+learn explore: 0.0192
+generate predictions: 0.0187
+intractable small: 0.0159
+figure available: 0.0134
+54 54: 0.0055
+node retraining: 0.0032
+200: 0.0032
+requires checking: 0.0014
+https homl: -0.0025
+recursively stops: -0.0067
+day quantum: -0.0082
+vertical dotted: -0.01
+finally discuss: -0.0106
+prone: -0.0129
+noisy quadratic: -0.017
+command line: -0.0219
+hyperparameters depend: -0.0221
+import standardscaler: -0.0232
+content message: -0.0247
+attribute type: -0.0266
+pca_pipeline make_pipeline: -0.0275
+right really: -0.0276
+note algorithms: -0.0282
+round array: -0.0288
+pruning deleting: -0.0315
+shufflesplit class: -0.0318
+cm class_names: -0.0323
+export_graphviz function: -0.0389
+lefthand area: -0.0418
+max_depth random_state: -0.0452
+purity improvement: -0.0473
+average information: -0.0538
+mse: -0.0557
+scaling input: -0.062
+returns ratio: -0.0788
+zero molecules: -0.0825
+tk mleftmmseleft: -0.0858
+created min_weight_fraction_leaf: -0.0911
+as_frame true: -0.1004
+originated thermodynamics: -0.138

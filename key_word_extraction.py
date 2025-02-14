@@ -1,11 +1,14 @@
 import os
 from keybert import KeyBERT
 from colorama import Fore, init
+from sentence_transformers import SentenceTransformer
 
 init(autoreset=True)
 
 # Initialize KeyBERT with the default model
-kw_model = KeyBERT()
+model = SentenceTransformer("fine_tuned_model")
+kw_model = KeyBERT(model=model)
+
 
 # Folder containing your chapter text files
 book_chunks_path = 'book_chunks'

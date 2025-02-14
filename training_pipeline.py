@@ -5,10 +5,9 @@ from nltk.tokenize import sent_tokenize
 from sentence_transformers import SentenceTransformer, InputExample, losses
 from torch.utils.data import DataLoader
 
-# Download the punkt tokenizer if not already present
+# Download the necessary NLTK tokenizers
 nltk.download('punkt')
-
-# -------------------------------
+nltk.download('punkt_tab')
 # Configuration
 # -------------------------------
 # Folder containing chapter text files produced by your chunking.py
@@ -18,8 +17,8 @@ chunks_folder = "book_chunks"  # adjust if your folder is named differently
 output_model_path = "fine_tuned_model"
 
 # Training parameters
-batch_size = 32
-num_epochs = 1  # Adjust this based on your data size and desired training time
+batch_size = 256
+num_epochs = 10  # Adjust this based on your data size and desired training time
 
 # -------------------------------
 # Step 1: Build Training Examples from Chapters
