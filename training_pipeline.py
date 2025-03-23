@@ -18,7 +18,7 @@ chunks_folder = "book_chunks"  # adjust if your folder is named differently
 output_model_path = "fine_tuned_model"
 
 # Training parameters
-batch_size = 8
+batch_size = 2
 num_epochs = 1  # Adjust this based on your data size and desired training time
 
 # -------------------------------
@@ -58,8 +58,10 @@ model = SentenceTransformer(model_name)
 # Check if GPU is available and move the model to CPU if available 
 if torch.cuda.is_available():
     device = torch.device("cuda")
+    print("Using ROCm-enabled GPU:", torch.cuda.get_device_name(device))
 else:
     device = torch.device("cpu")
+    print("ROCm GPU not detected, using CPU instead.")
 
 # Move the model to device if available
 model.to(device)
