@@ -2,10 +2,11 @@ import re
 import os
 from pdfminer.high_level import extract_text
 from colorama import Fore, init
+from preprocess_text import process_chapters
 
 # Configurations
 init(autoreset=True)
-BOOK_PATH = 'book.pdf'
+BOOK_PATH = 'new_book.pdf'
 TEXT_OUTPUT = 'extracted_text.txt'
 
 
@@ -22,7 +23,7 @@ def extract_book(book_path=BOOK_PATH, text_output=TEXT_OUTPUT):
     print(Fore.GREEN + f"PDF Extraction Complete exported to {output_file}")
 
 
-def chunk_text(text_path=TEXT_OUTPUT):
+def chunk_text(text_path=TEXT_OUTPUT, skip_first=True, max_chapters=None):
     with open(text_path, "r", encoding="utf-8") as file:
         text = file.read()
 
@@ -30,6 +31,16 @@ def chunk_text(text_path=TEXT_OUTPUT):
     chapters = re.split(pattern, text)
     chapters = [chapter.strip() for chapter in chapters if chapter.strip()]
     print(f"Total chapters found: {len(chapters)}")
+
+    if skip_first:
+        chapters = chapters[1:]
+        print("Skipping the first chapter.")
+
+    if max_chapters is not None:
+        chapters = chapters[:max_chapters]
+        print(f"Processing only the first {max_chapters} chapters after filtering.")
+
+    print(f"Total chapters to be processed: {len(chapters)}")
 
     base_name = os.path.splitext(os.path.basename(BOOK_PATH))[0]
     output_folder = base_name + "_chunks"
@@ -51,7 +62,9 @@ def chunk_text(text_path=TEXT_OUTPUT):
         print(Fore.CYAN + f"Written Chapter {i} to {output_file}" + Fore.RESET)
         print(f"\n--- Chapter {i} Preview ---")
         print(chapter[:300])  # prints first 300 characters of the chapter as a preview
+    process_chapters(base_name + "_chunks")
 
 
 extract_book()
-chunk_text()
+chunk_text(skip_first=True, max_chapters=19)
+

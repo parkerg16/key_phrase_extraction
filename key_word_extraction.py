@@ -6,12 +6,13 @@ from sentence_transformers import SentenceTransformer
 init(autoreset=True)
 
 # Initialize KeyBERT with the default model
-model = SentenceTransformer("fine_tuned_model")
+# model = SentenceTransformer("fine_tuned_model")
+model = SentenceTransformer("distilroberta-base-msmarco-v2")
 kw_model = KeyBERT(model=model)
 
 
 # Folder containing your chapter text files
-book_chunks_path = 'book_chunks'
+book_chunks_path = 'Processed_Chapters'
 key_phrases_path = 'key_phrases'
 
 if not os.path.exists(key_phrases_path):
@@ -30,7 +31,7 @@ for idx, file_name in enumerate(chapter_files, start=1):
     # Extract keywords from the chapter text
     keywords = kw_model.extract_keywords(
         chapter_text,
-        keyphrase_ngram_range=(1, 2),  # Length of phrase
+        keyphrase_ngram_range=(1, 3),  # Length of phrase
         stop_words='english',  # Filter common english
         use_mmr=True,  # Text relation ?
         diversity=0.7,
