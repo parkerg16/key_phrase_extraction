@@ -115,7 +115,7 @@ models/keybert/my_finetuned_model/
 ```bash
 python scripts/keyword_extraction_test.py \
   --input_dir data/processed_chunks \
-  --output_dir data/keyphrases/test \
+  --output_dir data/keyphrases/train \
   --model models/keybert/my_finetuned_model  # or any HuggingFace model
 ```
 

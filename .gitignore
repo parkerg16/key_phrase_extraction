@@ -35,7 +35,7 @@ evaluation/results/
 index_terms.txt
 
 # Models and checkpoints
-models/**/checkpoints/*
+models/
 
 # PDFs and large raw data (optional)
 *.pdf
