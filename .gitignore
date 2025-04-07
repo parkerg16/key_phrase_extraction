@@ -1,3 +1,45 @@
-fine_tuned_model
-key_phrases
-.idea
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.env/
+.venv/
+venv/
+ENV/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Data and Outputs
+data/extracted_text.txt
+data/keyphrases/*
+data/processed_chunks/*
+data/chunks/*
+*.log
+*.tmp
+*.bak
+
+# Evaluation results
+evaluation/results/
+index_terms.txt
+
+# Models and checkpoints
+models/**/checkpoints/*
+
+# PDFs and large raw data (optional)
+*.pdf
+
+# Shell/exec artifacts
+*.sh
+*.bat

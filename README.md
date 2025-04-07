@@ -1,154 +1,181 @@
-# PDF Book Chapter Chunker
+# Key Phrase Extraction & Concept Mapping Pipeline
 
-A simple Python tool that extracts text from a PDF book, splits it into individual chapters, and evaluates key phrase extraction using F1 scores. This project leverages [pdfminer.six](https://github.com/pdfminer/pdfminer.six) for PDF text extraction, [Colorama](https://pypi.org/project/colorama/) for colorful terminal output, regular expressions for text chunking, and [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy) for fuzzy matching during evaluation.
+A modular NLP pipeline that extracts keyphrases from a textbook, maps their relationships, and evaluates extraction quality using fuzzy metrics. Built using `pdfminer.six`, `KeyBERT`, `sentence-transformers`, and `fuzzywuzzy`.
 
-## Features
+---
 
-- **PDF Extraction:** Automatically extracts the entire text from a PDF file.
-- **Chapter Chunking:** Splits the extracted text into individual chapters based on form feed and chapter markers (e.g., `\fChapter {1}`, `\fChapter {2}`, etc.).
-- **Organized Output:** Saves each chapter as a separate `.txt` file in a folder named after the book (with `_chunks` appended).
-- **Configurable:** Easily modify file paths and settings via configuration constants in the scripts.
-- **Key Phrase Evaluation:** 
-  - **Index Term Extraction:** Extracts index terms from the book (between "Index" and "About the Author") and saves them to a file.
-  - **Ground Truth Creation:** Matches index terms to each chapter to create ground truth files.
-  - **F1 Score Computation:** Evaluates key phrase extraction by comparing predicted key phrases (from your extraction method) with the ground truth using fuzzy partial matching, computing precision, recall, and F1 scores.
+## 🔍 Project Overview
 
-## Prerequisites
+This project takes a textbook PDF and transforms it into structured knowledge via:
 
-- Python 3.6 or higher
+- 📖 **PDF Text Extraction**
+- ✂️ **Chapter Chunking**
+- 🧼 **Text Preprocessing**
+- 🧠 **Keyphrase Extraction (KeyBERT + Transformers)**
+- ✅ **Evaluation using Index Terms**
+- 🌐 **Graph-based Concept Mapping (via GCN)**
 
-## Installation
+---
 
-1. **Clone the repository:**
+## 📂 Directory Structure
 
-   ```bash
-   git clone https://github.com/parkerg16/key_phrase_extraction/
-   cd key_phrase_extraction
-Install dependencies:
-
-**This project includes a requirements.txt file. Install the required packages with:**
-
-  ```bash
-  pip install -r requirements.txt
-  ```
-Note: Ensure that fuzzywuzzy[speedup] is included in the requirements. If not, install it manually with:
-
-``` bash
-Copy
-pip install fuzzywuzzy[speedup]
+```plaintext
+key_phrase_extraction/
+├── data/
+│   ├── raw/                     # PDF and raw sources
+│   ├── chunks/                  # Chunked chapters
+│   ├── keyphrases/             # Extracted keyphrases (train/test)
+│   └── index_by_chapter.txt    # Index for evaluation
+├── models/                     # Checkpoints for KeyBERT / GCN
+├── sandbox/                    # Writing out test files
+├── scraping/                   # Data scraping scripts
+├── scripts/                    # Extraction & preprocessing scripts
+├── evaluation/                 # Evaluation metrics and results
+├── gcn_mapping/                # Concept map and relationship graphing
+├── run_pipeline.py             # 🚀 Master script to run pipeline
+├── requirements.txt
+└── README.md
 ```
 
-# Prepare Your PDF:
-Place your PDF file (e.g., book.pdf) in the project directory.
+---
 
-Configure Settings:
+## ⚙️ Features
 
-You can adjust the configuration values at the top of the script (chunking.py) if needed:
+### ✅ PDF Text Processing
+- Extracts text using `pdfminer.six`
+- Automatically chunks textbook by chapter markers (e.g. `\fChapter 1`)
+- Preprocesses text (removes dates, emails, figure/table numbers, etc.)
 
-BOOK_PATH: Path to your PDF file.
-TEXT_OUTPUT: Path where the extracted text will be saved.
-Run the Script:
+### 💡 Keyphrase Extraction
+- Uses `KeyBERT` with transformer backends (default: `distilroberta-base-msmarco-v2`)
+- Supports extraction for both train and test sets (based on chapter splits)
+- Saves top-ranked phrases per chapter
 
-Execute the script to extract text and split it into chapters:
+### 📊 Evaluation
+- Parses `index_by_chapter.txt` to get ground truth per chapter
+- Matches keyphrases against index terms using fuzzy partial ratio
+- Calculates precision, recall, and F1 per chapter and overall
+
+### 🧠 Relationship Mapping *(coming soon)*
+- Constructs knowledge graphs of keyphrases using Graph Convolutional Networks
+- Explores semantic relationships, concept overlaps, and cluster-based learning
+
+---
+
+## 🧪 Prerequisites
+
+- Python 3.8+
 
 ```bash
-python chunking.py
+pip install -r requirements.txt
+```
+Ensure `fuzzywuzzy[speedup]`, `sentence-transformers`, and `pdfminer.six` are included.
+
+---
+
+## 🚀 Running the Full Pipeline
+
+The entire workflow can be executed from start to finish using:
+
+```bash
+python run_pipeline.py
+```
+This will:
+1. Extract text from `data/raw/new_book.pdf`
+2. Chunk into chapters → `data/chunks/`
+3. Preprocess → `data/processed_chunks/`
+4. Run KeyBERT on training chapters → `data/keyphrases/train/`
+5. Run KeyBERT on test chapters → `data/keyphrases/test/`
+6. Evaluate test output using fuzzy match → results printed per chapter
+
+---
+
+## 🧩 Script Reference (Individual Steps)
+
+### 📖 1. Extract & Chunk Book
+```bash
+python scripts/extract_and_chunk_book.py --book_path data/raw/new_book.pdf --output_dir data/chunks --skip_first
 ```
 
-The script will:
+### 🏷️ 2. Extract Index Terms
+```bash
+python scripts/extract_index_terms.py --input data/extracted_text.txt --output data/index_by_chapter.txt
+```
 
-Extract text from your PDF and save it as extracted_text.txt (if it doesn't already exist).
-Split the text into chapters based on the pattern \fChapter {number}.
-Create a folder (e.g., book_chunks) and output each chapter into its own file (e.g., chapter_1_chunk.txt, chapter_2_chunk.txt, etc.).
-Skip any files or folders that already exist.
-What Does chunking.py Do?
-The chunking.py script is the core of this project. It performs the following tasks:
+### 🧠 3. Fine-Tune Sentence Transformer (optional)
+```bash
+python training/training_pipeline.py
+```
+This will save a fine-tuned model to: 
+```
+models/keybert/my_finetuned_model/
+```
 
-# PDF Extraction:
-Uses pdfminer.six to extract text from the specified PDF file. The extracted text is saved to a file (default: extracted_text.txt).
+### 🧠 4. Keyword Extraction - Train Set
+```bash
+python scripts/keyword_extraction_test.py \
+  --input_dir data/processed_chunks \
+  --output_dir data/keyphrases/test \
+  --model models/keybert/my_finetuned_model  # or any HuggingFace model
+```
 
-# Text Chunking:
-Reads the extracted text and applies a regular expression to split the text into chapters. Chapters are identified by a form feed (\f) followed by the word "Chapter" (with an optional chapter number in braces).
+### 🧠 5. Keyword Extraction - Test Set
+```bash
+python scripts/keyword_extraction_test.py \
+  --input_dir data/processed_chunks \
+  --output_dir data/keyphrases/test \
+  --model models/keybert/my_finetuned_model  # or any HuggingFace model
+```
 
-# File Output:
-Creates a directory named after the PDF (with _chunks appended) and writes each chapter's content into separate text files named in the format chapter_X_chunk.txt. If a chapter file already exists, the script skips writing that file.
+### 🧪 6. Evaluate Key phrases (F1, Precision, Recall)
+```bash
+python evaluation/evaluate_keyphrases.py \
+  --index_path data/index_by_chapter.txt \
+  --extracted_dir data/keyphrases/test
+```
+You can also evaluate the training set: 
+```bash
+python evaluation/evaluate_keyphrases.py \
+  --index_path data/index_by_chapter.txt \
+  --extracted_dir data/keyphrases/train
+```
 
-# Visual Feedback:
-Uses Colorama to print colored messages to the console, indicating the progress of PDF extraction and chapter creation, along with a preview of the first 300 characters of each chapter.
+---
 
-Example Terminal Output
-After running the script, you might see output like this:
+## 🔬 Future Work
+- Integrate Wikipedia scraping to enrich keyphrase context
+- Apply GCN to build visual concept maps
+- Extend evaluation to compare against multiple annotators or sources
+
+---
+
+## 📘 Example Output
 
 ```bash
-extracted_text.txt already exists. Skipping PDF extraction.
-Folder book_chunks already exists.
-Written Chapter 1 to book_chunks/chapter_1_chunk.txt
-
---- Chapter 1 Preview ---
-[First 300 characters of chapter 1...]
-
-Written Chapter 2 to book_chunks/chapter_2_chunk.txt
-
---- Chapter 2 Preview ---
-[First 300 characters of chapter 2...]
+🚀 Running: extract_and_chunk_book.py
+✔ PDF text extracted to extracted_text.txt
+✔ Written Chapter 1 to data/chunks/chapter_1_chunk.txt
+✔ Processed chapter_1_chunk.txt → data/processed_chunks/
 ...
+
+🚀 Running: evaluate_keyphrases.py
+
+Chapter 10:
+  matched: 45
+  extracted_total: 100
+  index_total: 92
+  precision: 0.4500
+  recall: 0.4891
+  f1_score: 0.4689
 ```
----------------------------- Obtaining F1 Score--------------------------------------------
-# Extract Index Terms
-Run the extract_index_terms.py script to extract the book's index terms. These terms are used to create ground truth for evaluation.
 
-```bash
-python extract_index_terms.py
-```
-What it does:
-Reads extracted_text.txt (generated by chunking.py).
-Extracts terms from the index section (between "Index" and "About the Author").
-Saves the extracted terms to index_terms.txt, one term per line.
+---
 
-Expected Output:
+## 🧠 Credits
+- Built on top of the amazing [`pdfminer.six`](https://github.com/pdfminer/pdfminer.six), [`KeyBERT`](https://github.com/MaartenGr/KeyBERT), and `sentence-transformers`
 
-```bash
-Extracted 1234 index terms.
-```
-Note: Ensure that extracted_text.txt exists before running this script.
+For any questions, feel free to open an issue or contribute!
 
-# Create Ground Truth Files
-Run the create_ground_truth.py script to generate ground truth files for each chapter based on the extracted index terms.
+---
 
-```bash
-python create_ground_truth.py
-```
-What it does:
-Reads index_terms.txt and the chapter texts from the book_chunks folder (e.g., chapter_1_chunk.txt).
-Uses regex with word boundaries to check which index terms appear in each chapter's text.
-Creates a ground_truth folder and saves each chapter's ground truth terms to files like chapter_1_ground_truth.txt, one term per line.
-
-Expected Output:
-```bash
-Created ground truth for chapter 1 with 50 terms
-Created ground truth for chapter 2 with 45 terms
-...
-Ground truth creation complete.
-```
-Note: Ensure that the book_chunks folder exists with chapter files before running this script.
-
-# Compute F1 Score with Fuzzy Matching
-Run the compute_f1_fuzzy_partial.py script to evaluate key phrase extraction using fuzzy partial matching.
-```bash
-python compute_f1_fuzzy_partial.py
-```
-What it does:
-Reads predicted key phrases from the key_phrases folder (e.g., chapter_1_keyphrases.txt with entries in the format "phrase: score") and the corresponding ground truth from the ground_truth folder (e.g., chapter_1_ground_truth.txt).
-Computes precision, recall, and F1 score for each chapter using fuzzywuzzy's partial ratio matching with a threshold (default is 60).
-Prints per-chapter metrics and overall averages
-
-Expected Output:
-```bash
-Chapter 1: Precision=0.6400, Recall=0.2530, F1=0.3626
-Chapter 2: Precision=0.8500, Recall=0.2335, F1=0.3664
-...
-Average Precision: 0.7990
-Average Recall: 0.2307
-Average F1: 0.3510
-```
-Note: Ensure that both key_phrases and ground_truth folders exist with the appropriate files before running this script. The key_phrases folder should contain files generated by your key phrase extraction method (e.g., using KeyBERT or another tool).
+Happy extracting 🧠💡
