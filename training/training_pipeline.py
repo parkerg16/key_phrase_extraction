@@ -1,8 +1,14 @@
 from sentence_transformers import SentenceTransformer, InputExample, losses
 from torch.utils.data import DataLoader
+from pathlib import Path
 import os
+import torch
 
-# 1. Define training examples (mocked for now, replace with your own)
+device = "cuda" if torch.cuda.is_available() else "cpu"
+print(f"Using device: {device}")
+
+
+# 1. Define training examples
 train_examples = [
     InputExample(texts=["deep learning", "neural networks"], label=0.9),
     InputExample(texts=["machine learning", "support vector machines"], label=0.8),
@@ -14,22 +20,26 @@ train_examples = [
 # 2. Load base transformer
 model_name = "distilroberta-base-msmarco-v2"
 model = SentenceTransformer(model_name)
+model = model.to(device)
 
 # 3. Prepare data loader + loss
-train_dataloader = DataLoader(train_examples, shuffle=True, batch_size=4)
+batch_size = 4
+train_dataloader = DataLoader(train_examples, shuffle=True, batch_size=batch_size)
 train_loss = losses.CosineSimilarityLoss(model=model)
 
 # 4. Define where to save your model
-output_path = "models/keybert/my_finetuned_model"
+epochs = 3
+warmup_steps = 10
+output_path = Path("models/keybert/my_finetuned_model")
 os.makedirs(output_path, exist_ok=True)
 
 # 5. Train the model
 model.fit(
     train_objectives=[(train_dataloader, train_loss)],
-    epochs=3,
-    warmup_steps=10,
+    epochs=epochs,
+    warmup_steps=warmup_steps,
     show_progress_bar=True,
     output_path=output_path
 )
 
-print(f"✅ Fine-tuned model saved to: {output_path}")
+print(f"Fine-tuned model saved to: {output_path}")

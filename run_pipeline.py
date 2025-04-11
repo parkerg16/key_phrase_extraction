@@ -39,17 +39,11 @@ def main(train_model=False, model_path=None):
         run_script("training/training_pipeline.py")
         model_path = str(root / "models" / "keybert" / "my_finetuned_model")
 
-    # Step 4: Train keyword extraction
-    run_script("scripts/keyword_extraction_train.py", [
+    # Step 4: Train keyword extraction or Test keyword extraction
+    run_script("scripts/keyword_extraction.py", [
         "--input_dir", str(root / "data" / "processed_chunks"),
         "--output_dir", str(root / "data" / "keyphrases" / "train"),
-        "--model", model_path or "distilroberta-base-msmarco-v2"
-    ])
-
-    # Step 5: Test keyword extraction
-    run_script("scripts/keyword_extraction_test.py", [
-        "--input_dir", str(root / "data" / "processed_chunks"),
-        "--output_dir", str(root / "data" / "keyphrases" / "test"),
+        "--type", "train",
         "--model", model_path or "distilroberta-base-msmarco-v2"
     ])
 

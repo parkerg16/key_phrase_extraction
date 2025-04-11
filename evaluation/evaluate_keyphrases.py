@@ -25,7 +25,7 @@ def load_extracted_keyphrases(test_keyphrase_dir):
     for fname in os.listdir(test_keyphrase_dir):
         if not fname.endswith(".txt"):
             continue
-        chapter_num = fname.split("_")[1]  # chapter_10_keyphrases.txt
+        chapter_num = fname.split("_")[1]
         with open(os.path.join(test_keyphrase_dir, fname), 'r', encoding='utf-8') as f:
             phrases = [line.split(':')[0].strip().lower() for line in f if line.strip()]
         extracted[chapter_num] = phrases

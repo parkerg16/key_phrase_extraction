@@ -1,13 +1,28 @@
 import argparse
 import os
+import re
+import torch
 from sentence_transformers import SentenceTransformer
 from keybert import KeyBERT
 from colorama import Fore, init
 
 init(autoreset=True)
 
+TRAIN_CHAPTERS = {'1', '2', '3', '4', '5', '7', '8', '9', '13', '14', '15', '16', '17', '18', '19'}
+TEST_CHAPTERS = {'6', '10', '11', '12'}
+
+
+def extract_chapter_number(file_name):
+    match = re.search(r"(?:chapter[_-]?|ch)(\d+)", file_name, re.IGNORECASE)
+    return match.group(1) if match else None
+
+
 def main(args):
-    # Load either pretrained or previously saved model
+    # Detect device type
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    print(f"Running extraction on device: {device}")
+
+    # Load model (fine-tuned or base)
     if os.path.isdir(args.model):
         print(Fore.CYAN + f"Loading fine-tuned model from: {args.model}")
         model = SentenceTransformer(args.model)
@@ -15,23 +30,33 @@ def main(args):
         print(Fore.YELLOW + f"Loading base model: {args.model}")
         model = SentenceTransformer(args.model)
 
+    model = model.to(device)
     kw_model = KeyBERT(model=model)
 
-    # Save the model (if first time + path provided)
+    # Save the model (optional)
     if args.save_model_path:
         print(Fore.GREEN + f"Saving model to {args.save_model_path}...")
         model.save(args.save_model_path)
 
-    # Directory setup
     os.makedirs(args.output_dir, exist_ok=True)
-    chapter_files = sorted([f for f in os.listdir(args.input_dir) if f.endswith('.txt')])
 
-    for file_name in chapter_files:
-        chapter_num = file_name.split('_')[-2]
-        if chapter_num not in {'1', '2', '3', '4', '5', '7', '8', '9', '13', '14', '15', '16', '17', '18', '19'}:
-            continue
+    chapter_files = []
+    for f in os.listdir(args.input_dir):
+        if f.endswith(".txt"):
+            chapter_num = extract_chapter_number(f)
+            if chapter_num:
+                chapter_files.append((chapter_num, f))
 
-        with open(os.path.join(args.input_dir, file_name), 'r', encoding='utf-8') as f:
+    for chapter_num, file_name in chapter_files:
+        if args.type == 'train':
+            if chapter_num not in TRAIN_CHAPTERS:
+                continue
+        else:
+            if chapter_num not in TEST_CHAPTERS:
+                continue
+
+        file_path = os.path.join(args.input_dir, file_name)
+        with open(file_path, 'r', encoding='utf-8') as f:
             text = f.read()
 
         keywords = kw_model.extract_keywords(
@@ -52,10 +77,11 @@ def main(args):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Keyword Extraction for Training Chapters")
+    parser = argparse.ArgumentParser(description="Unified Keyword Extraction for Training or Testing")
     parser.add_argument('--input_dir', type=str, default='data/processed_chunks')
     parser.add_argument('--output_dir', type=str, default='data/keyphrases/train')
     parser.add_argument('--model', type=str, default='distilroberta-base-msmarco-v2', help="Path to model or HuggingFace name")
+    parser.add_argument('--type', type=str, choices=['train', 'test'], default='train', help="Run on 'train' or 'test' split")
     parser.add_argument('--save_model_path', type=str, default='', help="Optional: Save model to this path")
 
     args = parser.parse_args()
