@@ -1,0 +1,62 @@
+isomap algorithm
+random pca algorithm
+unsupervis learn
+compress
+curs of dimension
+compress
+decompress
+reconstruct error
+reduc dimension
+dimension reduct
+decompress
+lle
+local linear embed
+pca
+princip compon analysi
+explain varianc ratio
+featur map
+featur space
+increment pca
+ipca
+invers transform
+kernel pca
+kpca
+kernel trick
+kernel
+linear discrimin analysi
+lda
+manifold assumpt
+manifold hypothesi
+manifold learn
+multidimension scale
+md
+nonlinear dimension reduct
+nldr
+array_split ( ) function
+memmap class
+svd ( ) function
+origin space
+choos dimens number
+for compress
+increment
+preserv varianc
+princip compon axi
+project down to d dimens
+random
+pre-imag
+project
+random project
+random pca
+reconstruct pre-imag
+automat reconstruct with
+full svd approach
+incrementalpca class
+kernelpca class
+pcang
+singular valu decomposit
+svd
+subspac
+t-distribut stochast neighbor embed
+t-sne
+train instanc
+preserv

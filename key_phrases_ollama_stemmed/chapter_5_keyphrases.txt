@@ -1,0 +1,76 @@
+here are 75 contigu noun phrase extract from the text
+1 support vector machin
+2 kernel svm
+3 onlin learn method
+4 increment and decrement support vector machin learn
+5 neural network
+6 linearli separ dataset
+7 mnist dataset
+8 california hous dataset
+9 primal problem
+10 dual form
+11 train set
+12 million of instanc
+13 hundr of featur
+14 rbf kernel
+15 gamma
+16 c
+17 qp paramet
+18 soft margin linear svm classifi problem
+19 off the shelf qp solver
+20 linearsvc
+21 svc
+22 sgdclassifi
+23 binari classifi
+24 one versu the rest
+25 mnist dataset accuraci
+26 california hous dataset regress
+27 neural network architectur
+28 learn algorithm
+29 classif problem
+30 regress problem
+31 featur engin
+32 hyperparamet tune
+33 valid set
+34 model select
+35 train data
+36 test data
+37 evalu metric
+38 accuraci metric
+39 precis metric
+40 recal metric
+41 f1 score metric
+42 margin violat
+43 street and sidewalk
+44 support vector
+45 kernel trick
+46 onlin svm classifi
+47 gradient descent
+48 stochast gradient descent
+49 quadrat program
+50 primal problem formul
+51 dual problem formul
+52 soft margin formul
+53 hard margin formul
+54 larg scale nonlinear problem
+55 part ii
+56 neural network model
+57 machin learn framework
+58 classif algorithm
+59 regress algorithm
+60 kernel method
+61 featur select
+62 dimension reduct
+63 data preprocess
+64 model evalu metric
+65 model perform measur
+66 train error
+67 test error
+68 cross valid
+69 holdout method
+70 model complex
+71 regular techniqu
+72 overfit prevent
+73 underfit prevent
+74 model interpret
+75 support vector machin learn

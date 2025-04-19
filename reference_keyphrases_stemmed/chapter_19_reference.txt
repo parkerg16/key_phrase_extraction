@@ -1,0 +1,119 @@
+activ constraint
+ai platform
+allreduc algorithm
+dynam placer algorithm
+boltzmann machin
+hopfield network
+restrict boltzmann machin
+rbm
+self-organ map
+som
+associ memori network
+asynchron updat
+automat differenti
+autodiff
+bandwidth satur
+canari test
+cluster specif
+colab runtim
+colaboratori
+colab
+complementari slack
+comput unifi devic architectur librari
+cuda
+concret function
+contrast diverg
+cuda deep neural network librari
+cudnn
+comput gradient use autodiff
+data parallel
+data prepar
+deep belief network
+dbn
+deep learn vm imag
+distribut strategi api
+dual number
+dual problem
+embed devic
+energi function
+data download
+data visual
+frame the problem
+launch monitor and maintain
+machin learn project checklist
+model fine-tun
+model select and train
+exercis solut
+fake quantiz
+finit differ approxim
+forward-mod autodiff
+function definit
+function graph
+gener lagrangian
+predict servic creation
+predict servic use
+googl cloud storag
+gc
+gpu
+graphic process unit
+gpu-equip virtual machin
+manag gpu ram
+parallel execut across multipl devic
+place oper and variabl on devic
+select
+speed comput with
+hidden unit
+inequ constraint
+input signatur
+inter-op thread pool
+intra-op thread pool
+jupyterlab
+karush–kuhn–tuck
+kkt
+lagrang multipli
+logic gpu devic
+manual differenti
+metagraph
+mirror strategi
+ml engin
+mobil devic
+model parallel
+train across multipl devic
+stochast neuron
+newton 's differ quotient
+nvidia collect commun librari
+nccl
+nvidia gpu card
+paramet server
+post-train quantiz
+creat on gcp ai
+quantization-awar train
+queue
+rag tensor
+reverse-mod autodiff
+savedmodel format
+servic account
+set
+spare replica
+spars tensor
+spuriou pattern
+stale gradient
+stationari point
+string tensor
+symbol differenti
+symbol tensor
+synchron updat
+temperatur
+tensor array
+tensorflow cluster
+special data structur
+autograph and trace
+deploy to mobil and embed devic
+serv tensorflow model
+train model across multipl devic
+use gpu to speed comput
+graph gener by
+thermal equilibrium
+virtual gpu devic
+visibl unit
+warmup phase

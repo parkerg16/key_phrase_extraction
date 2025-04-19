@@ -1,0 +1,77 @@
+Here are 75 contiguous noun phrases extracted from the text:
+
+1. Expert keyphrase extractor
+2. Keyphrase extractor
+3. First layer
+4. Hold-out set
+5. New training set
+6. Predicted values
+7. Training set
+8. Target values
+9. Individual classifiers
+10. Validation set
+11. Test set
+12. Random Forest classifier
+13. Extra-Trees classifier
+14. SVM classifier
+15. Ensembles
+16. Classifier ensemble
+17. Ensemble performance
+18. Voting classifiers
+19. AdaBoost ensemble
+20. Gradient Boosting ensemble
+21. Learning rate
+22. Training data
+23. Validation data
+24. Test data
+25. MNIST data
+26. Splitting data
+27. Training set size
+28. Validation set size
+29. Test set size
+30. Classifier performance
+31. Ensemble predictions
+32. Voting scheme
+33. Stacking ensemble
+34. Layered ensemble
+35. Blender training
+36. Blender architecture
+37. First layer predictors
+38. Second layer predictors
+39. Third layer predictors
+40. Multilayer stacking
+41. Neural networks
+42. David H. Wolpert
+43. Stacked Generalization
+44. Wolpert's paper
+45. Neural network layers
+46. Model training
+47. Model evaluation
+48. Ensemble learning
+49. Boosting ensembles
+50. Bagging ensembles
+51. Pasting ensembles
+52. Random Forests
+53. Extra-Trees
+54. AdaBoost algorithm
+55. Gradient Boosting algorithm
+56. Learning rate adjustment
+57. Training data size
+58. Validation data size
+59. Test data size
+60. Classifier accuracy
+61. Ensemble accuracy
+62. Voting scheme comparison
+63. Stacking ensemble performance
+64. Layered ensemble performance
+65. Blender architecture design
+66. First layer predictor selection
+67. Second layer predictor selection
+68. Third layer predictor selection
+69. Multilayer stacking implementation
+70. Neural network architectures
+71. Model evaluation metrics
+72. Ensemble learning algorithms
+73. Boosting and bagging techniques
+74. Random Forests' randomness
+75. Extra-Trees' randomization

@@ -1,0 +1,79 @@
+logist
+sigmoid
+argmax oper
+batch gradient descent
+bia term
+bias/vari trade-off
+calculu
+larg margin classif
+linear svm classif
+closed-form solut
+column vector
+converg
+convex function
+cross-entropi loss
+log loss
+mean squar error
+iri dataset
+decis boundari
+comput complex
+earli stop
+elast net
+epoch
+featur vector
+full gradient descent
+global minimum
+gradient descent
+gd
+mini-batch gradient descent
+stochast gradient descent
+learn rate
+ident matrix
+independ and ident distribut
+iid
+random initi
+intercept term
+kullback–leibl diverg
+lasso regress
+learn curv
+learn schedul
+linear algebra
+linear regress model
+approach to train
+normal equat
+local minimum
+log-odd
+logist regress
+estim probabl
+softmax regress
+train and cost function
+logit
+rmse
+mini-batch
+multinomi logist regress
+normal exponenti
+inv ( ) function
+sgd
+paramet matrix
+paramet space
+paramet vector
+partial deriv
+polynomi regress
+linear regress
+ridg regress
+regular term
+regular linear model
+root mean squar error
+linear regress
+simul anneal
+singular valu decomposit
+svd
+softmax function
+subgradi vector
+support vector machin
+svm
+tikhonov regular
+toler
+featur vector
+paramet vector
+subgradi vector

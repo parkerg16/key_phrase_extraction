@@ -1,0 +1,45 @@
+hard margin classif
+nonlinear svm classif
+soft margin classif
+constrain optim
+hing loss
+featur scale
+decis tree
+train and visual
+dual problem
+gaussian radial basi function
+rbf
+hing loss function
+hyperplan
+kernel trick
+kernel svm
+kernel
+landmark
+levenshtein distanc
+liblinear librari
+libsvm librari
+machin learn
+ml
+margin violat
+mercer 's condit
+mercer 's theorem
+onlin svm
+polynomi featur
+polynomi kernel
+primal problem
+quadrat program
+qp
+radial basi function
+svm regress
+svm classif class
+svm model
+toler hyperparamet
+sigmoid kernel
+similar function
+slack variabl
+string kernel
+string subsequ kernel
+subderiv
+decis function and predict
+train object
+support vector

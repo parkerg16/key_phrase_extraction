@@ -1,0 +1,77 @@
+here are up to 75 contigu noun phrase extract from the text
+1 keyphras extractor
+2 expert keyphras extractor
+3 larg amount of data
+4 neural network architectur
+5 imag process applic
+6 input pipelin bottleneck
+7 binari data file
+8 serial protocol buffer
+9 exampl protobuf format
+10 tfrecord file compress
+11 preprocess layer within model
+12 tf transform benefit
+13 categor featur encod techniqu
+14 text featur encod method
+15 fashion mnist dataset
+16 train set valid set test set
+17 serial imag label featur
+18 kera model train effici
+19 tensorboard profil data visual
+20 larg movi review dataset
+21 movi review internet movi databas
+22 posit neg review directori
+23 text file review organ
+24 binari classif model
+25 textvector layer preprocess
+26 word indic lookup tabl adapt
+27 embed layer comput
+28 mean embed rescal optim
+29 accuraci train speed optim
+30 input pipelin effici optim
+31 tfd dataset load eas
+32 data preprocess techniqu
+33 neural network train method
+34 deep learn challeng
+35 convolut neural network imag process
+36 text featur extract algorithm
+37 natur languag process nlp applic
+38 machin learn model evalu metric
+39 overfit regular techniqu
+40 hyperparamet tune optim
+41 model interpret visual techniqu
+42 data augment techniqu
+43 transfer learn method
+44 neural network architectur comparison
+45 imag featur extract algorithm
+46 object detect model perform evalu
+47 pose estim model applic
+48 sentiment analysi model languag process
+49 name entiti recognit ner model text process
+50 topic model algorithm document cluster
+51 recommend system collabor filter
+52 natur languag gener algorithm
+53 machin translat model languag process
+54 question answer model inform retriev
+55 visual question answer vqa model comput vision
+56 gener adversari network gan imag synthesi
+57 neural style transfer artist style transfer
+58 attent mechan neural network
+59 recurr neural network rnn text process
+60 long short term memori lstm network languag model
+61 bidirect encod represent from transform bert model natur languag understand
+62 transform architectur sequenc to sequenc learn
+63 mask languag model pretrain task
+64 next sentenc predict task languag understand
+65 sentiment analysi model text classif
+66 name entiti recognit ner model inform extract
+67 topic model algorithm document cluster
+68 recommend system collabor filter
+69 gener adversari network gan imag synthesi
+70 neural style transfer artist style transfer
+71 attent mechan neural network
+72 recurr neural network rnn text process
+73 long short term memori lstm network languag model
+74 bidirect encod represent from transform bert model natur languag understand
+75 transform architectur sequenc to sequenc learn
+note that some of these noun phrase may be repeat or similar but they are all contigu and relev to the origin text

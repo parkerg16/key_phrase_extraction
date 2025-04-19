@@ -1,0 +1,53 @@
+bag of word
+encod use embed
+encod use one-hot vector
+chain transform
+helper function creation
+prefetch
+preprocess
+shuffl
+use dataset with tf.kera
+tensorflow data api
+prefetch data
+preprocess data
+shuffl data
+use dataset with tf.kera
+dataset
+embed
+embed matrix
+helper function
+preprocess layer
+list of list use sequenceexampl protobuf
+memori bandwidth
+cnn
+one-hot vector
+out-of-vocabulari
+oov
+pipelin
+protocol buffer
+protobuf
+represent learn
+sequenceexampl protobuf
+shuffling-buff approach
+tensorflow extend
+tfx
+data api
+preprocess input featur
+tensorflow dataset
+tfd
+tf transform
+tfrecord format
+term-frequ × inverse-document-frequ
+tf-idf
+tf dataset
+tf.transform
+tf.kera
+compress tfrecord file
+list of list use sequenceexampl proto‐buf
+load and pars exampl
+tensorflow protobuf
+training/serv skew
+chain
+vocabulari
+voic recognit
+word embed

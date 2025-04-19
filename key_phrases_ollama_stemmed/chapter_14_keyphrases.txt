@@ -1,0 +1,76 @@
+here are up to 75 contigu noun phrase extract from the text
+1 deep comput vision
+2 convolut neural network
+3 semant segment
+4 instanc segment model
+5 mask r cnn architectur
+6 adversari learn
+7 explain
+8 realist imag gener
+9 singl shot learn
+10 capsul network
+11 recurr neural network
+12 convolut neural network
+13 fulli connect dnn
+14 imag classif
+15 rgb imag
+16 featur map
+17 kernel size
+18 stride valu
+19 pad type
+20 cnn architectur
+21 convolut layer
+22 pool layer
+23 normal layer
+24 fulli convolut network
+25 dens layer
+26 convolut layer
+27 neural network
+28 comput vision
+29 imag process
+30 featur extract
+31 classif model
+32 train dataset
+33 valid set
+34 test set
+35 input pipelin
+36 preprocess oper
+37 data augment techniqu
+38 fine tune model
+39 transfer learn approach
+40 style transfer algorithm
+41 artist imag gener
+42 neural network architectur
+43 deep learn framework
+44 convolut neural network
+45 recurr neural network
+46 long short term memori network
+47 feedforward neural network
+48 feedback neural network
+49 gener adversari network
+50 autoencod
+51 variat autoencod
+52 gener model
+53 imag synthesi techniqu
+54 style transfer method
+55 artist style
+56 color palett
+57 textur pattern
+58 brush stroke effect
+59 pixel valu
+60 imag resolut
+61 pixel densiti
+62 featur extract techniqu
+63 convolut neural network
+64 pool layer
+65 normal layer
+66 fulli connect dnn
+67 recurr neural network
+68 long short term memori network
+69 feedforward neural network
+70 feedback neural network
+71 gener adversari network
+72 autoencod
+73 variat autoencod
+74 gener model
+75 style transfer algorithm

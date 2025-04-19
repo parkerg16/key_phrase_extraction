@@ -1,0 +1,76 @@
+here are the identifi keyphras
+1 tensorflow
+2 deep learn
+3 keyphras extract
+4 neural network
+5 machin learn
+6 autograph
+7 trace
+8 tf function
+9 low level api
+10 tensor
+11 oper
+12 variabl
+13 special data structur
+14 kera
+15 custom layer
+16 custom model
+17 train loop
+18 data preprocess
+19 fashion mnist dataset
+20 epoch
+21 iter
+22 mean train loss
+23 mean accuraci
+24 valid loss
+25 valid accuraci
+26 optim
+27 learn rate
+28 upper layer
+29 lower layer
+30 custom train loop
+31 layer normal
+32 trainabl weight
+33 momentum
+34 varianc
+35 standard deviat
+36 smooth term
+37 itemwis multipl
+38 batch normal
+39 activ function
+40 regular techniqu
+41 hyperparamet tune
+42 model evalu metric
+43 train and valid curv
+44 overfit
+45 underfit
+46 gener
+47 transfer learn
+48 model interpret
+49 neural network architectur
+50 convolut neural network cnn
+51 recurr neural network rnn
+52 long short term memori lstm network
+53 gate recurr unit gru
+54 feedforward neural network
+55 autoencod
+56 gener adversari network gan
+57 variat autoencod vae
+58 reinforc learn
+59 q learn
+60 polici gradient method
+61 deep q network dqn
+62 actor critic method
+63 trust region polici optim trpo
+64 proxim polici optim ppo
+65 valu base reinforc learn
+66 polici base reinforc learn
+67 model free reinforc learn
+68 model base reinforc learn
+69 onlin learn
+70 batch learn
+71 increment learn
+72 transfer learn
+73 adversari attack
+74 robust evalu metric
+75 explain techniqu

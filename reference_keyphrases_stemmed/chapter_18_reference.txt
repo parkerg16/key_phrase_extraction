@@ -1,0 +1,98 @@
+a/b experi
+action advantag
+action step
+evalu
+exploit versu explor
+actor-crit algorithm
+advantag actor-crit
+a2c
+asynchron advantag actor-crit
+a3c
+duel dqn algorithm
+genet algorithm
+off-polici algorithm
+on-polici algorithm
+proxim polici optim
+ppo
+reinforc algorithm
+soft actor-crit algorithm
+valu iter algorithm
+approxim q-learn
+atari preprocess
+batch action step
+batch time step
+batch trajectori
+bellman optim equat
+boundari transit
+catastroph forget
+collect polici
+mean squar error
+credit assign problem
+curiosity-bas explor
+train loop
+dataset
+deep q-learn
+doubl dqn
+duel dqn
+fix q-valu target
+priorit experi replay
+deep q-network
+dqn
+dequ
+discount factor
+doubl duel dqn
+dqn agent
+dynam program
+explor polici
+import sampl
+is
+markov chain
+markov decis process
+mdp
+instal
+observ
+onlin model
+openai gym
+optim state valu
+polici
+polici gradient
+pg
+polici paramet
+polici search
+polici space
+per
+q-learn
+approxim q-learn and deep q- learn
+implement
+q-valu iter
+q-valu
+queri per second
+qp
+rainbow agent
+evalu action
+neural network polici
+optim reward
+tempor differ learn
+tf-agent librari
+replay buffer
+replay memori
+sampl ineffici
+simul environ
+state-act valu
+stochast polici
+target model
+td error
+td target
+td learn
+tensorflow model deploy at scale
+termin state
+collect driver
+environ specif
+environ wrapper
+environ
+replay buffer and observ
+train architectur
+train metric
+trajectori
+trajectori
+undiscount reward

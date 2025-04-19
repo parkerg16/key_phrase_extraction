@@ -1,0 +1,82 @@
+Here are up to 75 contiguous noun phrases extracted from the text:
+
+1. Keyphrase extractor
+2. Classification tasks
+3. Multioutput classification
+4. Noise removal system
+5. Spam classifier
+6. Titanic dataset
+7. Kaggle platform
+8. Apache SpamAssassin datasets
+9. Email format
+10. Feature vector transformation
+11. Data preparation pipeline
+12. Hyperparameters control
+13. Email headers stripping
+14. Case conversion
+15. Punctuation removal
+16. URL replacement
+17. Number replacement
+18. Stemming algorithm
+19. Classification systems building
+20. Good metrics selection
+21. Precision-recall trade-off
+22. Classifier comparison
+23. Spam classification exercise
+24. Handson-ML2 Jupyter notebooks
+25. GitHub repository
+
+26. Classification techniques
+27. Binary classification
+28. Multiclass classification
+29. Regression analysis
+30. Multioutput regression
+31. Classification metrics evaluation
+32. Precision measurement
+33. Recall calculation
+34. F1-score computation
+35. Classification system development
+36. Dataset preparation
+37. Feature engineering
+38. Model training
+39. Hyperparameter tuning
+40. Model evaluation
+
+41. Titanic dataset features
+42. Passenger information
+43. Survived passengers classification
+44. Non-survived passengers classification
+45. Age range classification
+46. Sex classification
+47. Social class classification
+48. Embarked location classification
+49. Cabin classification
+50. Ticket number classification
+51. Family size classification
+
+52. Spam classification features
+53. Email content analysis
+54. Word frequency calculation
+55. Sentiment analysis
+56. Email formatting detection
+57. URL detection
+58. Number detection
+59. Punctuation detection
+60. Stemming algorithm application
+
+61. Keyphrase extraction techniques
+62. Frequency-based extraction
+63. Term frequency-inverse document frequency (TF-IDF) method
+64. Latent Semantic Analysis (LSA)
+65. Clustering algorithm application
+66. Classification model training
+67. Hyperparameter tuning
+68. Model evaluation metrics
+69. F1-score calculation
+70. Precision-recall trade-off
+
+71. Spam classification metrics evaluation
+72. Precision measurement
+73. Recall calculation
+74. F1-score computation
+75. Good spam classifier development

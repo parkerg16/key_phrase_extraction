@@ -1,0 +1,77 @@
+Here are 75 contiguous noun phrases extracted from the text:
+
+1. image classification
+2. convolutional neural networks
+3. computer vision
+4. keyphrase extractor
+5. semantic segmentation
+6. instance segmentation models
+7. Mask R-CNN architecture
+8. Faster R-CNN model
+9. bounding box
+10. class probabilities
+11. pixel mask
+12. adversarial learning
+13. explainability
+14. realistic image generation
+15. single-shot learning
+16. capsule networks
+17. recurrent neural networks
+18. convolutional neural networks
+19. time series
+20. fully connected DNN
+21. RGB images
+22. input images
+23. output feature maps
+24. training set
+25. validation set
+26. test set
+27. preprocessing operations
+28. data augmentation
+29. fine-tuning
+30. pretrained model
+31. style transfer
+32. art generation
+33. Deep Learning
+34. convolutional layers
+35. kernels
+36. stride
+37. padding
+38. parameters
+39. RAM
+40. prediction
+41. mini-batch
+42. training
+43. GPU memory
+44. normalization layer
+45. max pooling layer
+46. AlexNet innovations
+47. LeNet-5 innovations
+48. GoogLeNet innovations
+49. ResNet innovations
+50. SENet innovations
+51. Xception innovations
+52. fully convolutional network
+53. dense layer
+54. convolutional layer
+55. Deep Computer Vision
+56. architectures
+57. problem
+58. researchers
+59. learning
+60. image generation
+61. chapter
+62. notebook
+63. videos
+64. GitHub repositories
+65. TensorFlow Models project
+66. instance segmentation models
+67. semantic segmentation models
+68. classification
+69. bounding boxes
+70. class probabilities
+71. pixel masks
+72. adversarial learning techniques
+73. explainability techniques
+74. realistic image generation algorithms
+75. single-shot learning systems

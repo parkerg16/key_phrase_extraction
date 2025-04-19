@@ -1,0 +1,79 @@
+Here are 75 contiguous noun phrases extracted from the text:
+
+1. Reinforcement Learning
+2. Policy Gradients
+3. Markov chains
+4. Markov decision processes
+5. Q-Learning
+6. Approximate Q-Learning
+7. Deep Q-Learning
+8. Fixed Q-Value targets
+9. Double DQN
+10. Dueling DQN
+11. Prioritized experience replay
+12. Video games
+13. TF-Agents
+14. OpenAI Gym
+15. LunarLander-v2 environment
+16. Box2D dependencies
+17. SpaceInvaders-v4
+18. Raspberry Pi 3
+19. Robotics components
+20. TensorFlow
+21. Lukas Biewald
+22. GoPiGo
+23. BrickPi
+24. Light sensor
+25. Sonar sensor
+26. Camera
+27. Object detection algorithm
+28. People
+29. Motors
+30. Deep Learning
+31. Algorithm
+32. Goal
+33. Policy gradients
+34. Markov chains
+35. Reinforcement learning
+36. Q-learning
+37. Approximate q-learning
+38. Deep q-learning
+39. Fixed q-value targets
+40. Double dqn
+41. Dueling dqn
+42. Prioritized experience replay
+43. Video games
+44. TF-agents
+45. Openai gym
+46. Lunarlander-v2 environment
+47. Box2d dependencies
+48. Spaceinvaders-v4
+49. Raspberry pi 3
+50. Robotics components
+51. TensorFlow
+52. Lukas biewald
+53. Gopigo
+54. Brickpi
+55. Light sensor
+56. Sonar sensor
+57. Camera
+58. Object detection algorithm
+59. People
+60. Motors
+61. Deep learning
+62. Algorithm
+63. Goal
+64. Policy gradients
+65. Markov chains
+66. Reinforcement learning
+67. Q-learning
+68. Approximate q-learning
+69. Deep q-learning
+70. Fixed q-value targets
+71. Double dqn
+72. Dueling dqn
+73. Prioritized experience replay
+74. Video games
+75. Curiosity-based exploration
+
+Note that some of these noun phrases may be repeated or slightly modified versions of each other, as the text uses similar language and concepts throughout.

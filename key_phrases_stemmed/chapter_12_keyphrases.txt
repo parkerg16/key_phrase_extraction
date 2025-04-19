@@ -1,0 +1,75 @@
+tensorflow architectur
+regress classif net
+def self train
+loop epoch rang
+l2 reg kera regular
+park custom layer
+tpu faster custom
+use high level
+tion serial use
+kernel kernel dedic
+engin care run
+notebook
+know gpu dramat
+network need tweak
+custom asic chip
+like ndarray
+save load model
+selu simpli
+10 main rule
+time brows api
+shape input shape
+float32 numpi hood
+predict differ scale
+new hyperparamet
+iti need
+built googl production
+oper like magic
+my posit weight weight
+featur request github
+technic question use
+backpropag far
+cuss subclass api
+comput gradi
+method custom
+convert python list
+want defin loss
+straint nonneg tf
+skip connect implement
+tial deriv rare
+return base config threshold
+extern librari includ
+activ exponenti exponenti
+differenti
+sive ecosystem
+batch item differ
+10 000000003174137
+function updat state
+modifi individu cell
+likewis
+ric metric class
+paus record creat
+structur dispos readi
+run window linux
+gradient clip chapter
+kwarg take
+sum squar tf constant
+multipl devic server
+softplu better handl
+thing creat
+graph note function
+larg error caus
+use autodiff lead
+defin cu tom
+packag queue store
+cast realli
+huber fn current
+constraint constraint
+2015 popular
+monitor intern aspect
+probabl
+infin divid infin
+join 4f format
+look defin
+encod utf automat
+shell doe access

@@ -1,0 +1,60 @@
+accuraci
+autograph
+automat differenti
+autodiff
+comput graph
+mean squar error
+activ function initi regular and constraint
+comput gradient use autodiff
+layer
+loss function
+loss and metric
+metric
+model
+save and load
+train loop
+load and preprocess with tensorflow
+eager execution/eag mode
+embed
+featur
+first in first out
+fifo
+graph mode
+huber loss
+just-in-tim
+jit
+low-level api
+kernel
+see cost function
+locat paper on
+custom with tensorflow
+use tensorflow like
+queue
+rag tensor
+reconstruct loss
+residu block
+set
+spars tensor
+state metric
+stream metric
+string tensor
+symbol tensor
+tensor array
+tensorflow hub
+tensorflow lite
+tensorflow basic of architectur
+benefit xvi
+commun support
+get help
+librari ecosystem
+oper system compat
+tensorflow data load and preprocess
+tensorflow function and graph
+autograph and trace
+tf function rule
+tensor
+rule
+tpu
+tensor process unit
+type convers
+variabl

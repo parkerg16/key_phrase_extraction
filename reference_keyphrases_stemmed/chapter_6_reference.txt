@@ -1,0 +1,48 @@
+cart train algorithm
+greedi algorithm
+binari tree
+black box model
+chi-squar test
+classif and regress tree
+cart
+vote classifi
+mean squar error
+decis tree
+comput complex
+estim class probabl
+gini impur versu entropi
+instabl drawback
+make predict
+regress task
+regular hyperparamet
+ensembl learn
+random forest
+ensembl method
+ensembl
+entropi impur measur
+gini impur measur
+impur
+inform theori
+instabl
+leaf node
+majority-vot predict
+parametr versu nonparametr
+white versu black box
+nonparametr model
+np-complet problem
+null hypothesi
+p-valu
+parametr model
+predict problem
+prune
+hyperparamet for decis tree
+root node
+decisiontreeregressor class
+max_depth hyperparamet
+presort data with
+random_st hyperparamet
+shannon 's inform theori
+statist signific
+train set rotat
+white box model
+wisdom of the crowd

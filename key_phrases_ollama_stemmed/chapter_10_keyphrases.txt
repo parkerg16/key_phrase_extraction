@@ -1,0 +1,77 @@
+here are 75 contigu noun phrase identifi from the text
+1 expert keyphras extractor
+2 up to 75 contigu noun phrase
+3 keyphras extractor
+4 contigu noun phrase
+5 expert system
+6 natur languag process
+7 text analysi
+8 inform retriev
+9 document classif
+10 artifici intellig
+11 machin learn algorithm
+12 neural network
+13 deep learn techniqu
+14 logist regress classifi
+15 perceptron train algorithm
+16 multilay perceptron
+17 threshold logic unit
+18 activ function
+19 relu activ function
+20 sigmoid function
+21 tanh function
+22 softmax function
+23 neural network architectur
+24 artifici neuron
+25 input layer
+26 hidden layer
+27 output layer
+28 weight vector
+29 bia vector
+30 activ function
+31 backpropag algorithm
+32 revers mode autodiff
+33 hyperparamet
+34 learn rate
+35 loss function
+36 gradient descent
+37 stochast gradient descent
+38 adagrad optim
+39 adam optim
+40 batch normal
+41 vanish gradient problem
+42 local minima
+43 plateau
+44 long term plateau
+45 overfit
+46 underfit
+47 neural network theori
+48 spiral dataset
+49 xor oper
+50 a b equat
+51 logist regress classifi
+52 perceptron classifi
+53 singl layer neural network
+54 threshold logic unit
+55 mlp with one hidden layer
+56 one input neuron
+57 two output neuron
+58 relu activ function
+59 sigmoid function
+60 tanh function
+61 softmax function
+62 artifici intellig applic
+63 natur languag process task
+64 text classif
+65 sentiment analysi
+66 inform retriev system
+67 document cluster
+68 neural network architectur
+69 deep learn techniqu
+70 convolut neural network
+71 recurr neural network
+72 long short term memori lstm cell
+73 gate recurr unit gru
+74 autoencod
+75 gener adversari network gan
+note that some of these phrase may be relat or overlap with each other but i have tri to identifi distinct noun phrase base on the text

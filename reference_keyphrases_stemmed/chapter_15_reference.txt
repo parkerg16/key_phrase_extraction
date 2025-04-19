@@ -1,0 +1,60 @@
+1d convolut layer
+recurr
+autoregress integr move averag
+arima
+backpropag through time
+bptt
+basic cell
+causal model
+chatbot
+mean squar error
+decod
+differenc
+encod
+encoder–decod model
+forecast
+forget gate
+gate control
+gate recurr unit
+gru
+imput
+input and output sequenc
+input gate
+layer normal
+1d convolut layer
+logit regress
+see logist regress
+long sequenc short-term memori problem
+unstabl gradient problem
+long short-term memori
+lstm
+memori cell
+sequence-to-sequ model
+train
+multivari time seri
+naiv forecast
+natur languag process
+nlp
+recurr neuron
+output gate
+peephol connect
+forecast time seri
+handl long sequenc
+recurr neuron and layer
+stateless and state
+sequence-to-vector network
+handl long
+input and output
+short-term memori problem
+time seri data
+baselin metric
+deep rnn
+forecast sever step ahead
+simpl rnn
+time step
+ture test
+univari time seri
+unrol the network through time
+vector-to-sequ network
+wavenet
+weight move averag model

@@ -1,0 +1,93 @@
+cross-valid
+agent
+cluster algorithm
+hierarch cluster algorithm
+import of data over
+supervis learn
+unsupervis learn
+visual algorithm
+anomali detect
+restrict boltzmann machin
+rbm
+associ rule learn
+attribut
+batch learn
+better life index
+causal model
+classif mlp
+corpu develop
+data mismatch
+import of over algorithm
+noisi data
+deep belief network
+dbn
+overfit
+develop set
+dev set
+featur engin
+featur extract
+featur select
+featur
+final train model
+fit function
+fully-specifi model architectur
+gener error
+hold out
+holdout valid
+hyperparamet
+hyperparamet tune
+learn rate
+increment learn
+infer
+instance-bas learn
+k-nearest neighbor regress
+label
+linear model
+classif with
+machin learn
+ml
+test and valid
+measur of similar
+mini-batch
+model paramet
+model select
+model-bas learn
+train
+no free lunch
+nfl
+novelti detect
+offlin learn
+onlin learn
+optic charact recognit
+ocr
+out-of-cor learn
+out-of-sampl error
+penalti
+polici
+predict problem
+regress problem
+regular
+reinforc learn
+rl
+respons
+cluster
+reward
+sampl bia
+sampl nois
+linear model
+semi-supervis learn
+spam filter
+test set
+train-dev set
+train data
+irrelev featur
+nonrepres
+poor qualiti
+underfit
+train instanc
+train sampl
+train set
+algorithm cover
+common task
+util function
+valid set

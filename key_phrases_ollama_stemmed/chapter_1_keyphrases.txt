@@ -1,0 +1,76 @@
+here are up to 75 contigu noun phrase extract from the text
+1 machin learn
+2 keyphras extractor
+3 text data
+4 noun phrase
+5 supervis task
+6 unsupervis task
+7 train set
+8 label train set
+9 model paramet
+10 hyperparamet
+11 onlin learn system
+12 out of core learn
+13 similar measur
+14 model base learn algorithm
+15 learn algorithm s hyperparamet
+16 model paramet
+17 train dev set
+18 valid set
+19 test set
+20 machin learn problem
+21 flower speci identif
+22 mobil app pictur
+23 web imag
+24 train data
+25 train set
+26 predict model
+27 custom segment
+28 spam detect
+29 robot walk terrain
+30 algorithm strategi
+31 priori distinct
+32 neural comput
+33 david wolpert s work
+34 lack of a priori distinct
+35 learn algorithm
+36 predict mechan
+37 model search strategi
+38 onlin learn system
+39 data mismatch problem
+40 repres pictur
+41 train set
+42 valid set
+43 test set
+44 machin learn task
+45 supervis problem
+46 unsupervis problem
+47 label data
+48 unlabel data
+49 train model
+50 predict analyt
+51 data preprocess
+52 imag classif
+53 pictur process
+54 mobil devic imag
+55 web pictur
+56 machin learn applic
+57 text analysi
+58 natur languag process
+59 nlp task
+60 text mine
+61 sentiment analysi
+62 topic model
+63 cluster algorithm
+64 custom profil
+65 market segment
+66 product recommend
+67 person system
+68 recommend engin
+69 content base filter
+70 collabor filter
+71 hybrid approach
+72 machin learn architectur
+73 deep learn model
+74 neural network
+75 big data analyt

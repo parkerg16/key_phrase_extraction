@@ -1,0 +1,76 @@
+here are 75 contigu noun phrase extract from the text
+1 dimension reduct techniqu
+2 keyphras extractor
+3 expert keyphras extractor
+4 noun phrase extractor
+5 text analysi
+6 data preprocess
+7 featur extract
+8 dimension reduct method
+9 unsupervis learn algorithm
+10 data visual tool
+11 inform retriev system
+12 natur languag process techniqu
+13 machin learn model
+14 statist pattern recognit method
+15 high dimension data set
+16 curs of dimension
+17 dimension reduct goal
+18 main motiv for reduc dataset s dimension
+19 drawback of dimension reduct
+20 pca princip compon analysi
+21 increment pca
+22 random pca
+23 kernel pca
+24 vanilla pca
+25 dimension reduct algorithm
+26 dimension reduct techniqu in scikit learn
+27 random project
+28 multidimension scale md
+29 isomap
+30 t distribut stochast neighbor embed t sne
+31 linear discrimin analysi lda
+32 svm classifi
+33 dimension reduct for visual
+34 data compress techniqu
+35 featur select method
+36 unsupervis learn model
+37 cluster algorithm
+38 densiti base cluster
+39 hierarch cluster
+40 k mean cluster
+41 dbscan densiti base spatial cluster of applic with nois
+42 expect maxim algorithm
+43 gaussian mixtur model
+44 hidden markov model
+45 latent dirichlet alloc
+46 latent semant analysi
+47 non neg matrix factor
+48 neural network
+49 convolut neural network
+50 recurr neural network
+51 autoencod
+52 gener adversari network
+53 variat autoencod
+54 dimension reduct for cluster
+55 dimension reduct for classif
+56 dimension reduct for regress
+57 pca for high dimension data set
+58 kernel pca for nonlinear dimension reduct
+59 random pca for speed up dimension reduct
+60 increment pca for onlin dimension reduct
+61 multidimension scale md for visual
+62 isomap for preserv geodes distanc
+63 t distribut stochast neighbor embed t sne for non linear dimension reduct
+64 linear discrimin analysi lda for classif
+65 svm classifi for classif
+66 dimension reduct in text analysi
+67 dimension reduct in imag process
+68 dimension reduct in speech recognit
+69 dimension reduct in natur languag process
+70 dimension reduct in recommend system
+71 dimension reduct in inform retriev
+72 dimension reduct in data mine
+73 dimension reduct in machin learn
+74 dimension reduct in pattern recognit
+75 dimension reduct in data scienc

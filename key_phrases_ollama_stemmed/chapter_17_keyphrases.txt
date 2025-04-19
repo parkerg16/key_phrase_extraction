@@ -1,0 +1,77 @@
+here are 75 contigu noun phrase extract from the text
+1 keyphras extractor
+2 noun phrase
+3 deep learn
+4 autoencod
+5 gener model
+6 gan
+7 imag dataset
+8 classif dnn
+9 variat autoencod
+10 unlabel dataset
+11 condit gan
+12 experi replay
+13 pretrain model
+14 kera implement
+15 tensorflow implement
+16 deep reinforc learn
+17 train data
+18 label instanc
+19 reconstruct
+20 code layer
+21 neuron
+22 train set
+23 test set
+24 imag classifi
+25 denois autoencod
+26 lower layer
+27 classif dnn train
+28 pretrain
+29 perform improv
+30 activ visual
+31 varianc reduct
+32 latent space
+33 gener process
+34 stochast addit
+35 nois inject
+36 mix regular
+37 style vector
+38 synthesi network
+39 gan architectur
+40 train difficulti
+41 converg issu
+42 overfit risk
+43 undercomplet autoencod
+44 overcomplet autoencod
+45 featur extract
+46 dimension reduct
+47 encod process
+48 decod process
+49 reconstruct loss
+50 kl diverg
+51 mutual inform
+52 variat infer
+53 posterior distribut
+54 prior distribut
+55 bayesian learn
+56 gener model
+57 condit gener
+58 class control
+59 experi replay buffer
+60 batch size optim
+61 train loop optim
+62 hyperparamet tune
+63 model select
+64 model evalu
+65 metric calcul
+66 perform metric
+67 accuraci improv
+68 loss function minim
+69 optim algorithm
+70 stochast gradient descent
+71 mini batch gradient descent
+72 batch normal
+73 dropout regular
+74 l1 regular
+75 l2 regular
+note that these noun phrase are contigu mean they are not separ by ani other word or punctuat mark

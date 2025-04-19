@@ -1,0 +1,77 @@
+here are 75 contigu noun phrase extract from the text
+1 keyphras extractor
+2 expert keyphras extractor
+3 languag model
+4 neural network
+5 sequenc to sequenc task
+6 automat translat
+7 encod decod rnn
+8 state rnn
+9 stateless rnn
+10 pro and con
+11 unsupervis learn
+12 autoencod
+13 gener adversari network
+14 imag gener
+15 deep represent
+16 neural machin translat
+17 attent mechan
+18 beam search
+19 tool implement
+20 transform architectur
+21 most import layer
+22 purpos of layer
+23 sampl softmax
+24 embed reber grammar
+25 artifici grammar
+26 lstm paper
+27 jenni orr s introduct
+28 train an rnn
+29 grammar identif
+30 date string convers
+31 encod decod model
+32 neural machin translat
+33 attent tutori
+34 tensorflow neural network
+35 recent languag model
+36 gpt gener
+37 shakespearean text
+38 keyphras extract
+39 natur languag process
+40 languag understand
+41 deep learn
+42 neural network architectur
+43 sequenc to sequenc task challeng
+44 automat translat limit
+45 encod decod rnn advantag
+46 state rnn applic
+47 stateless rnn use case
+48 pro and con of rnn
+49 unsupervis learn benefit
+50 autoencod use
+51 gener adversari network applic
+52 imag gener limit
+53 deep represent challeng
+54 neural machin translat difficulti
+55 attent mechan import
+56 beam search implement
+57 tool use case
+58 transform architectur advantag
+59 most import layer in transform
+60 purpos of most import layer
+61 sampl softmax use
+62 embed reber grammar applic
+63 artifici grammar challeng
+64 lstm paper find
+65 jenni orr s introduct to embed reber grammar
+66 train an rnn for grammar identif
+67 grammar identif challeng
+68 date string convers difficulti
+69 encod decod model limit
+70 neural machin translat tutori
+71 tensorflow neural network use case
+72 recent languag model applic
+73 gpt gener limit
+74 shakespearean text gener challeng
+75 keyphras extract import
+note that some of these noun phrase may be relat to each other or be variat of the same concept but i have tri to extract distinct and meaning phrase from the origin text

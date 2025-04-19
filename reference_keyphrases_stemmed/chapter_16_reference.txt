@@ -1,0 +1,82 @@
+softmax
+addit attent
+attent mechan
+explain and
+transform architectur
+visual attent
+autoencod
+bahdanau attent
+beam search
+beam width
+bidirect recurr layer
+bidirect rnn
+byte-pair encod
+charact rnn
+char-rnn
+build and train
+chop sequenti dataset
+gener shakespearean text
+split sequenti dataset
+state rnn and
+train dataset creation
+concaten attent
+condit probabl
+loss function
+flat dataset
+googl news 7b corpu
+internet movi databas
+nest dataset
+dens vector
+dot product
+embed reber grammar
+encoder–decod model
+end-of-sequ
+eo
+entail
+explain
+stylegan
+languag model
+latent represent
+bidirect recurr layer
+mask multi-head attent layer
+multi-head attent layer
+scale dot-product attent layer
+see cost function
+mask tensor
+mask languag model
+mlm
+mask
+modul
+multipl attent
+natur languag process
+nlp
+attent mechan
+encoder–decod network
+gener text use charact rnn
+sentiment analysi
+neural machin translat
+nmt
+next sentenc predict
+nsp
+posit encod
+reus pretrain embed
+gener text use charact rnn
+stateless and state
+regular express
+sampl softmax techniqu
+self-attent mechan
+sentenc encod
+softmax function
+start of sequenc
+so
+temperatur
+tensorflow addon
+tensorflow hub
+test and valid
+text gener
+tf.text librari
+token
+truncat backpropag through time
+word token
+zero-shot learn
+zsl

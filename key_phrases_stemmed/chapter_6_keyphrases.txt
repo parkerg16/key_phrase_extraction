@@ -1,0 +1,75 @@
+decis tree train
+regr sion tree
+like svm
+predict flower iri
+use regress task
+tree gini impur
+frequent predict use
+independ number featur
+ousli overfit
+california hous
+answer algorithm
+hint use scikitlearn
+faster comput good
+tion decis
+dataset exampl chapter
+shannon
+classif mleft mright
+cross valid
+meter predict left
+choos tk search
+presort data
+look make predic
+better orient
+tri variou
+belong class
+give major vote
+fit complex
+score gi ith
+figur figur decis
+compar featur max featur
+call regular regular
+reduc risk
+np hard major
+raschka interest
+start root
+model structur free
+wide obviou
+ter describ
+appli
+gener moon
+obvi ousli
+sourc graph visual
+split easili
+interpret easi use
+log2 pi use
+purest subset weight
+select
+step continu previou
+left case leaf
+doe ask question
+set use grid
+default hyperparamet restrict
+way earlier
+take hour train
+array 90740741 09259259
+unnecessari children delet
+lem intract small
+id3 produc
+reduc polynomi
+oppos lin ear
+boundari repres
+node instanc return
+imag path
+cart cost
+squar error equal
+target name round true
+width smaller 75
+set random state
+convert dot file
+contrast parametr model
+zero messag ident
+averag inform content
+limit instabl
+origin thermodynam measur
+packag avail http

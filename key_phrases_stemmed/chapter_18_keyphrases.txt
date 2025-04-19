@@ -1,0 +1,75 @@
+deepmind demonstr learn
+defin reinforc learn
+rl wide adopt
+applic alphago
+just like openai
+player game 2017
+control get bore
+gpu soft actor
+command instal atari
+valu practic effici
+episod estim advantag
+stochast gd truli
+mdp progress
+explor polici
+million 2014 did
+duel dqn priorit
+s2 choic
+chapter environ agent
+qtarget
+flat reward mean
+plu
+12 richard bellman
+camera input
+humans3 use raw
+fact build
+centuri mathematician andrey
+sam ple identifi
+defin experi
+model perform loss
+librari simul 3d
+tweak hope
+depth pool fix
+extrem curiou
+previou trust
+day depend hardwar
+boil new idea
+news revolut took
+bad one want
+nega tive mean
+27000 108k
+use motor achiev
+fake server xvfb
+replay buffer get next sampl batch size
+continu iter gener
+estim guarante converg
+web page
+optimization26 trpo algorithm
+compani fund elon
+mean gradient use
+van hasselt
+look result import
+wrap gym
+defin hyperparamet
+dog get rewar
+scale larger complex
+paper requir lot
+action spec boundedarrayspec
+extermin posit center
+price decid buy
+problem tractabl subproblem
+creat initi use
+display imag color
+form equat
+extra layer preprocess combin
+float did cast
+number atom
+repres diamond figur
+man eat present
+api chang bit
+copi network copi
+fals probabl left proba
+step type numpi array
+2018 1856 1865
+averag reach state
+delet item

@@ -1,0 +1,76 @@
+here are up to 75 contigu noun phrase identifi from the text
+1 keyphras extractor
+2 expert
+3 noun phrase
+4 1 5 contigu
+5 train set
+6 hold out set
+7 first layer
+8 second layer
+9 target valu
+10 new train set
+11 blender
+12 blender
+13 ensembl
+14 random forest
+15 adaboost
+16 gradient boost
+17 classifi
+18 valid set
+19 test set
+20 mnist data
+21 train instanc
+22 imag s class
+23 individu classifi
+24 predict
+25 new train set
+26 classifi
+27 ensembl predict
+28 vote classifi
+29 exercis
+30 solut
+31 appendix
+32 chapter
+33 neural network
+34 layer
+35 instanc
+36 target
+37 predictor
+38 first layer s predict
+39 second layer s predict
+40 third layer s predict
+41 multilay stack ensembl
+42 scikit learn
+43 open sourc implement
+44 deslib
+45 precis
+46 recal
+47 accuraci
+48 learn rate
+49 train data
+50 valid data
+51 test data
+52 out of bag evalu
+53 extra tree
+54 random forest
+55 adaboost ensembl
+56 gradient boost ensembl
+57 classifi ensembl
+58 stack ensembl
+59 blender ensembl
+60 first layer s predictor
+61 second layer s blender
+62 third layer s blender
+63 multilay blend ensembl
+64 new train set s target valu
+65 individu classifi s predict
+66 ensembl s predict
+67 test set s instanc
+68 imag s class label
+69 valid set s instanc
+70 train set s instanc
+71 first layer s target valu
+72 second layer s target valu
+73 third layer s target valu
+74 multilay stack ensembl s predict
+75 ensembl perform evalu

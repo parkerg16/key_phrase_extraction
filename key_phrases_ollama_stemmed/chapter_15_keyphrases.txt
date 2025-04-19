@@ -1,0 +1,76 @@
+here are up to 75 contigu noun phrase extract from the text
+1 time seri
+2 keyphras extractor
+3 sequenc to sequenc rnn
+4 sequenc to vector rnn
+5 vector to sequenc rnn
+6 neural network architectur
+7 recurr neural network rnn
+8 long short term memori lstm cell
+9 gate recurr unit gru
+10 convolut layer
+11 causal pad
+12 input layer
+13 1d convolut layer
+14 wavenet architectur
+15 skip connect
+16 gate activ unit
+17 text to speech task
+18 audio sampl
+19 music gener
+20 nlp task
+21 rnn layer
+22 sequenc length
+23 time step
+24 univari time seri
+25 daili time seri
+26 forecast
+27 neural network
+28 deep learn
+29 classif model
+30 sketchrnn dataset
+31 tensorflow dataset
+32 bach choral dataset
+33 piano note
+34 johann sebastian bach
+35 music gener
+36 googl s coconet model
+37 googl doodl
+38 time seri forecast
+39 sequenc predict
+40 neural network architectur
+41 recurr neural network rnn
+42 long short term memori lstm cell
+43 gate recurr unit gru
+44 convolut layer
+45 causal pad
+46 input layer
+47 1d convolut layer
+48 wavenet architectur
+49 skip connect
+50 gate activ unit
+51 text to speech task
+52 audio sampl
+53 music gener
+54 nlp task
+55 rnn layer
+56 sequenc length
+57 time step
+58 univari time seri
+59 daili time seri
+60 forecast
+61 neural network
+62 deep learn
+63 classif model
+64 sketchrnn dataset
+65 tensorflow dataset
+66 bach choral dataset
+67 piano note
+68 johann sebastian bach
+69 music gener
+70 googl s coconet model
+71 googl doodl
+72 sequenc predict
+73 neural network architectur
+74 recurr neural network rnn
+75 time seri analysi

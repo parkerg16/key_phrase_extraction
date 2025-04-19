@@ -1,0 +1,77 @@
+Here are 75 contiguous noun phrases extracted from the text:
+
+1. sequence-to-sequence RNN
+2. sequence-to-vector RNN
+3. vector-to-sequence RNN
+4. neural network architecture
+5. input layer
+6. convolutional layer
+7. LSTM cell
+8. GRU cell
+9. ResNet
+10. Gated Activation Units
+11. text-to-speech tasks
+12. audio tasks
+13. music generation
+14. time series forecasting
+15. sequence length
+16. audio samples
+17. languages
+18. vector-to-sequence RNNs
+19. deep sequence-to-sequence RNN
+20. return sequences True
+21. input dimensions
+22. output dimensions
+23. daily univariate time series
+24. next seven days
+25. 1D convolutional layers
+26. classification model
+27. SketchRNN dataset
+28. TensorFlow Datasets
+29. Bach chorales
+30. piano notes
+31. note indices
+32. time steps
+33. recurrent neural networks
+34. convolutional neural networks
+35. both architectures
+36. sequence prediction
+37. note generation
+38. Google doodle
+39. Coconet model
+40. exercise solutions
+41. Appendix A
+42. state-of-the-art performance
+43. audio tasks
+44. realistic voices
+45. text-to-speech tasks
+46. pro- producing voices
+47. music generation
+48. sequence forecasting
+49. neural network architectures
+50. RNNs
+51. LSTMs
+52. GRUs
+53. deep learning
+54. time series analysis
+55. audio signal processing
+56. natural language processing
+57. machine learning
+58. data preprocessing
+59. feature engineering
+60. model evaluation
+61. hyperparameter tuning
+62. neural network training
+63. sequence generation
+64. next-step prediction
+65. note prediction
+66. time series forecasting models
+67. audio classification
+68. music genre recognition
+69. sentiment analysis
+70. language modeling
+71. text classification
+72. sequence-to-sequence translation
+73. machine learning algorithms
+74. deep learning frameworks
+75. neural network architectures

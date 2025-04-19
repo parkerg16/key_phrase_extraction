@@ -1,0 +1,77 @@
+here are 75 contigu noun phrase extract from the text
+1 type of classif
+2 multioutput classif
+3 multioutput multiclass classif
+4 noisi digit imag
+5 clean digit imag
+6 pixel intens rang
+7 mnist imag
+8 train set
+9 test set
+10 email header
+11 spam classifi
+12 apach spamassassin s public dataset
+13 data prepar pipelin
+14 featur vector
+15 email format
+16 kaggl platform
+17 titan dataset
+18 classif task
+19 precis recal trade off
+20 spam detect
+21 email process
+22 word occurr
+23 stem librari
+24 url replac
+25 number replac
+26 punctuat remov
+27 email preprocess
+28 data clean
+29 featur engin
+30 titan disast
+31 passeng surviv
+32 ship sink
+33 classif metric
+34 macro averag
+35 weight averag
+36 classifi comparison
+37 system perform
+38 precis score
+39 recal score
+40 f1 score
+41 cross valid
+42 model evalu
+43 hyperparamet tune
+44 machin learn algorithm
+45 classif model
+46 regress task
+47 pixel intens rang
+48 imag process
+49 data augment
+50 imag classif
+51 object detect
+52 spam filter
+53 email categor
+54 text classif
+55 natur languag process
+56 nlp techniqu
+57 inform retriev
+58 machin learn applic
+59 predict model
+60 data mine
+61 knowledg discoveri
+62 decis support system
+63 busi intellig
+64 data scienc
+65 artifici intellig
+66 ai applic
+67 deep learn model
+68 neural network
+69 convolut network
+70 recurr network
+71 long short term memori network
+72 lstm architectur
+73 feedforward network
+74 backpropag algorithm
+75 gradient descent optim
+note that some of these noun phrase may be relat or overlap and not all of them are uniqu to the text

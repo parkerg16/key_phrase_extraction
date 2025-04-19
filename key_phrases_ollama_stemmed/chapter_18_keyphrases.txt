@@ -1,0 +1,77 @@
+here are 75 contigu noun phrase extract from the text
+1 reinforc learn
+2 polici gradient
+3 markov chain
+4 markov decis process
+5 q learn
+6 approxim q learn
+7 deep q learn
+8 keyphras extractor
+9 tf agent
+10 video game
+11 agent at scale
+12 openai gym s lunarland v2 environ
+13 box2d depend
+14 raspberri pi 3
+15 robot compon
+16 tensorflow
+17 gopigo or brickpi
+18 simpl goal
+19 light sensor
+20 sonar sensor
+21 object detect algorithm
+22 camera
+23 motor
+24 experi replay
+25 deep learn
+26 object detect
+27 peopl
+28 reinforc learn algorithm
+29 curios base explor
+30 intrins reward
+31 extrins reward
+32 environ dynam
+33 agent s polici
+34 markov decis process
+35 reward function
+36 valu function
+37 polici gradient
+38 state action pair
+39 action valu function
+40 q function
+41 deep q network
+42 duel dqn
+43 doubl dqn
+44 priorit experi replay
+45 fix q valu target
+46 state space
+47 action space
+48 markov chain
+49 probabl distribut
+50 agent s decis make process
+51 explor exploit trade off
+52 credit assign problem
+53 off polici rl algorithm
+54 on polici rl algorithm
+55 rl agent s perform measur
+56 reward function design
+57 curriculum learn
+58 intrins motiv
+59 curios driven explor
+60 self supervis predict
+61 robot applic of rl
+62 autonom system
+63 smart home autom
+64 logist optim
+65 game play ai
+66 natur languag process
+67 comput vision
+68 deep reinforc learn
+69 off polici evalu
+70 transfer learn
+71 multi agent system
+72 cooper game
+73 competit game
+74 game theori
+75 artifici intellig
+pleas note that the extract noun phrase are not necessarili uniqu or distinct as some phrase may be variat of other

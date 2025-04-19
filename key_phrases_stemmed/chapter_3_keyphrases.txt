@@ -1,0 +1,75 @@
+classif system mnist
+predict hous valu
+clean predict instanc
+handwritten high school
+classif regress blurri
+figur show digit
+facerecognit
+sklearn dataset import
+new featur help
+decis score instead
+forest explain later
+learn use versu
+import baseestim class
+inspect data close
+line creat kneighborsclassifi
+predict proba roc curv function
+code train
+best one
+f1 precis recal
+class array conveni
+imag pillow opencv
+like label tell
+su bureau imag
+rest use onevsoneclassifi
+7555801512636044 detector doe
+70000 784
+tool use binari
+nal mean classifi
+possibl threshold
+set write data
+dtype bool guess
+hyperparamet use gridsearchcv
+actual target make
+implement cross valid
+chapter turn attent
+metric document
+add human pipelin
+regressor spend larg
+directori call
+distin guish
+characterist
+doe lot complex
+intens numpi randint
+exampl email contain
+wait
+task automat run
+safe kid probabl
+bob charli
+row matrix
+challeng exercis download
+test index y test fold y train 5
+remov nois
+helper function
+grab instanc featur
+nostradamu demonstr
+convers
+mean hello
+clone sgd clf
+set stud i
+format split
+pixel see new
+end python librari
+checklist appendix
+deal skew
+tackl titan
+convert vector mean
+arc draw junction
+matshow conf mx cmap
+notebook avail http
+mean give weight
+actual repr sent
+url url replac
+start central
+354 11 23
+3s 5s confus

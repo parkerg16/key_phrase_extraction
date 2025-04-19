@@ -1,0 +1,76 @@
+here are the 75 contigu noun phrase extract from the text
+1 iri flower
+2 train algorithm
+3 keyphras extractor
+4 linear regress train algorithm
+5 million of featur
+6 featur with veri differ scale
+7 gradient descent algorithm
+8 local minimum
+9 logist regress model
+10 valid error
+11 mini batch gradient descent
+12 polynomi regress
+13 learn curv
+14 ridg regress
+15 regular hyperparamet
+16 lasso regress
+17 elast net
+18 pictur classif
+19 outdoor indoor and daytim nighttim
+20 logist regress classifi
+21 softmax regress classifi
+22 batch gradient descent
+23 earli stop
+24 train set
+25 decis boundari
+26 iri dataset
+27 petal length
+28 petal width
+29 scikit learn s document
+30 solver algorithm
+31 c hyperparamet
+32 train process
+33 paramet matrix
+34 gradient vector
+35 optim algorithm
+36 cost function
+37 log loss
+38 logist regress cost function
+39 cross entropi cost function
+40 softmax regress solver
+41 lbfg solver
+42 iri virginica class
+43 predict model
+44 train data
+45 valid data
+46 decis boundari
+47 probabilist classif
+48 class probabl
+49 confus matrix
+50 error metric
+51 overfit
+52 underfit
+53 model complex
+54 regular term
+55 learn rate
+56 batch size
+57 epoch
+58 train epoch
+59 valid epoch
+60 test dataset
+61 predict accuraci
+62 model evalu
+63 hyperparamet tune
+64 model select
+65 featur engin
+66 data preprocess
+67 train process optim
+68 model deploy
+69 real world applic
+70 decis make system
+71 predict interv
+72 uncertainti quantif
+73 model interpret
+74 explain ai
+75 domain knowledg

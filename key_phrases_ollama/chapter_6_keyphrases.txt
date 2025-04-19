@@ -1,0 +1,77 @@
+Here are up to 75 contiguous noun phrases extracted from the text:
+
+1. Expert keyphrase extractor
+2. Decision Tree
+3. Training set
+4. Noun phrases
+5. Iris dataset
+6. Principal Component Analysis
+7. Random Forests
+8. Cross-validation
+9. GridSearchCV class
+10. ShuffleSplit class
+11. Decision Trees
+12. Test set
+13. Hyperparameter values
+14. Accuracy metric
+15. Training process
+16. Stability issue
+17. Orthogonal decision boundaries
+18. Principal Component Analysis technique
+19. Iris versicolor dataset
+20. Random state hyperparameter
+21. Stochastic algorithm
+22. Decision Tree model
+23. Gini impurity measure
+24. Parent node's impurity
+25. Training set details
+26. Underfitting problem
+27. Overfitting problem
+28. Time complexity issue
+29. Presort feature
+30. Moons dataset generation
+31. Train-test split process
+32. Hyperparameter tuning technique
+33. Decision Tree classifier
+34. Forest growth algorithm
+35. Prediction evaluation metric
+36. Random sampling method
+37. Mode function usage
+38. Majority-vote prediction approach
+39. Training a Random Forest classifier
+40. Stability improvement technique
+41. Decision boundary complexity issue
+42. Feature scaling technique
+43. Underfitting detection approach
+44. Overfitting detection approach
+45. Training time reduction strategy
+46. Random state initialization method
+47. Training set rotation problem
+48. Instability issue in decision making
+49. Forest stability improvement technique
+50. Decision Tree instability cause
+51. Gini impurity calculation process
+52. Parent node's Gini impurity calculation
+53. Training set noise level
+54. Noise corruption effect on accuracy
+55. Random sampling method for forest growth
+56. Decision Tree classification algorithm
+57. Forest-based decision making approach
+58. Instability issue in forest growth
+59. Decision boundary complexity measure
+60. Stability improvement technique for forests
+61. Random state initialization strategy
+62. Training set rotation effect on instability
+63. Decision Tree model evaluation metric
+64. Prediction accuracy improvement approach
+65. Random sampling method for decision trees
+66. Forest-based classification algorithm
+67. Instability issue in decision tree growth
+68. Gini impurity calculation technique
+69. Parent node's Gini impurity calculation process
+70. Training set noise level effect on instability
+71. Noise corruption effect on stability
+72. Random state initialization method for forests
+73. Decision Tree model interpretation approach
+74. Prediction accuracy improvement strategy
+75. Forest-based decision making algorithm

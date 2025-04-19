@@ -1,0 +1,77 @@
+here are up to 75 contigu noun phrase extract from the text
+1 machin learn project
+2 keyphras extractor
+3 contigu noun phrase
+4 hous dataset
+5 support vector machin regressor
+6 hyperparamet
+7 kernel paramet
+8 c hyperparamet
+9 gamma hyperparamet
+10 randomizedsearchcv
+11 transform pipelin
+12 data prepar step
+13 infrastructur setup
+14 model train process
+15 human evalu pipelin
+16 autom model retrain
+17 kaggl competit websit
+18 laptop select
+19 dataset choic
+20 clear goal definit
+21 peopl share experi
+22 fun experi
+23 exercis 1 solut
+24 support vector machin predictor perform
+25 gridsearchcv replac
+26 randomizedsearchcv explor
+27 transform attribut select
+28 full data prepar pipelin
+29 singl predict pipelin creation
+30 prepar option explor
+31 jupyt notebook avail
+32 github repositori link
+33 handson ml2 project directori
+34 machin learn algorithm import
+35 data qualiti evalu
+36 model deploy process
+37 perform degrad detect
+38 input data monitor tool
+39 poor qualiti signal detect
+40 malfunct sensor detect
+41 stale output detect
+42 featur drift detect
+43 categor featur detect
+44 mean standard deviat calcul
+45 train set evalu
+46 test set evalu
+47 model perform comparison
+48 previou model deploy process
+49 roll back process setup
+50 backup creation process
+51 dataset backup creation process
+52 data corrupt detect
+53 outlier detect
+54 corrupt dataset recoveri process
+55 model comparison process
+56 data subset evalu
+57 recent data evalu
+58 specif input evalu
+59 inland district evalu
+60 ocean face district evalu
+61 machin learn project infrastructur
+62 time consum project setup
+63 fast deploy process
+64 idea to product timelin
+65 effort and time requir for ml project
+66 autom script creation
+67 fresh data collect process
+68 label fresh data process
+69 model retrain script creation
+70 fine tune hyperparamet process
+71 script run schedul setup
+72 perform evalu process
+73 model deploy to product process
+74 infrastructur setup process
+75 machin learn project complex
+pleas note that these noun phrase are contigu mean they do not overlap with each other and are extract base on the text s syntax and semant

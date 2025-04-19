@@ -1,0 +1,86 @@
+cross-valid
+evalu
+averag absolut deviat
+california hous price dataset
+mnist dataset
+compon
+correl coeffici
+mean absolut error
+mae
+download
+geograph data
+data prepar
+custom transform
+data clean
+featur scale
+handl text and categor attribut
+transform pipelin
+data snoop bia
+attribut combin
+comput correl
+test train and explor set
+duck type
+dummi attribut
+embed
+estim
+euclidean norm
+data download
+data visual
+frame the problem
+launch monitor and maintain
+machin learn project checklist
+model fine-tun
+model select and train
+project goal
+select perform measur
+verifi assumpt
+explor set
+fold
+histogram
+hyperparamet tune
+isol environ
+k-fold cross-valid
+label
+machin learn
+ml
+manhattan norm
+rmse
+min-max scale
+model select
+fine-tun
+train
+multipl regress problem
+multivari regress problem
+normal
+dens array
+instal
+serial larg array
+one-hot encod
+one-hot vector
+pearson 's r
+pipelin
+predictor
+univari regress problem
+represent learn
+root mean squar error
+convert text to number
+dataset dictionari structur
+design principl
+gridsearchcv
+k-fold cross-valid featur
+mean_squared_error function
+miss valu handl
+save model
+split dataset into subset
+stratifi sampl
+transform sequenc
+transform and
+spars matrix
+standard correl coeffici
+standard
+tail-heavi histogram
+deploy on ai platform
+test set
+exampl project
+transform
+workspac creation

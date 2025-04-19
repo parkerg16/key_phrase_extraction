@@ -1,0 +1,82 @@
+1cycl schedul
+exponenti linear unit
+elu
+logist
+sigmoid
+nonsatur
+scale exponenti linear unit
+selu
+adagrad
+adam and nadam optim
+adapt learn rate
+adapt moment estim
+restrict boltzmann machin
+rbm
+batch normal
+bn
+train spars model
+overfit
+default configur
+faster optim
+reus pretrain layer
+vanishing/explod gradient problem
+dropout
+die relu problem
+explod gradient problem
+exponenti schedul
+fan-in/fan-out number
+first-ord partial deriv
+jacobian
+glorot and he initi
+gradient clip
+greedi layer-wis pretrain
+he initi
+lecun initi
+xavier initi
+keep probabl
+implement batch normal with
+implement dropout
+transfer learn with
+reus pretrain
+leaki relu function
+learn rate schedul
+learn schedul
+max-norm regular
+momentum optim
+momentum vector
+mont carlo
+mc
+nesterov acceler gradient
+nag
+nesterov momentum optim
+nonsatur activ function
+normal
+creat faster
+first- and second-ord partial deriv
+rmsprop
+avoid through regular
+parametr leaki relu
+prelu
+perform schedul
+piecewis constant schedul
+power schedul
+on auxiliari task
+unsupervis pretrain
+random leaki relu
+rrelu
+avoid overfit through
+second-ord partial deriv
+hessian
+self-norm
+self-supervis learn
+skip connect
+smooth term
+spars model
+tensorflow model optim toolkit
+tf-mot
+version cover
+tensorflow custom model and train
+implement learn rate schedul
+tf.kera
+transfer learn
+wall time

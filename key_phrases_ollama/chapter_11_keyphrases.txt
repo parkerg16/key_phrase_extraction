@@ -1,0 +1,21 @@
+Here are the identified keyphrase groups:
+
+1. Deep Learning
+2. Neural Networks
+3. Activation Functions (SELU, ReLU, Leaky ReLU)
+4. Initialization Methods (He, LeCun, Random)
+5. Regularization Techniques (Dropout, Alpha Dropout, MC Dropout)
+6. Optimization Algorithms (Momentum, RMSProp, Nadam)
+7. Learning Rate Schedules (1cycle, Adaptive)
+8. Model Optimization (TensorFlow Model Optimization Toolkit)
+9. Pre-training Methods (Unsupervised, Auxiliary Task)
+10. Model Deployment (Mobile, Embedded Devices)
+11. Risk-Sensitive Applications
+12. Inference Latency
+13. Probability Estimates
+14. Uncertainty Estimation
+15. TensorFlow Lower-Level API
+16. Custom Loss Functions
+17. Training Algorithm Tweaking
+
+Note that some of these groups may overlap or have sub-groups within them.

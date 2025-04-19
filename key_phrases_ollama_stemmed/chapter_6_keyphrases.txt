@@ -1,0 +1,76 @@
+here are 75 contigu noun phrase extract from the text
+1 keyphras extractor
+2 decis tree
+3 train set
+4 instabl
+5 orthogon decis boundari
+6 princip compon analysi
+7 iri versicolor
+8 train algorithm
+9 random forest
+10 test set
+11 gini impur
+12 parent node
+13 child node
+14 decis boundari
+15 train data
+16 decis tree classifi
+17 hyperparamet valu
+18 grid search
+19 cross valid
+20 train process
+21 model perform
+22 accuraci measur
+23 random subset
+24 decis tree
+25 major vote predict
+26 test instanc
+27 predict gener
+28 mode function
+29 scipi librari
+30 scikit learn class
+31 train test split
+32 shufflesplit class
+33 train subset
+34 decis tree train
+35 subset size
+36 random select
+37 decis tree model
+38 model evalu
+39 train time
+40 instanc count
+41 nois level
+42 moon dataset
+43 make moon function
+44 n sampl paramet
+45 nois paramet
+46 train set gener
+47 test set evalu
+48 accuraci calcul
+49 random forest train
+50 forest growth
+51 decis tree ensembl
+52 major vote predict
+53 random subset select
+54 decis tree train process
+55 model perform evalu
+56 hyperparamet tune
+57 grid search algorithm
+58 cross valid techniqu
+59 model accuraci measur
+60 test instanc classif
+61 predict gener process
+62 mode function usag
+63 scipi librari util
+64 scikit learn class applic
+65 train test split implement
+66 shufflesplit class util
+67 train subset creation
+68 decis tree train on subset
+69 subset size select
+70 random subset gener
+71 decis tree model train
+72 model evalu process
+73 accuraci calcul algorithm
+74 test set evalu method
+75 forest growth and perform measur

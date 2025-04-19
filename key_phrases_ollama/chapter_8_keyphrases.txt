@@ -1,0 +1,77 @@
+Here are 75 contiguous noun phrases extracted from the text:
+
+1. dataset's dimensionality
+2. main motivations
+3. curse of dimensionality
+4. highly nonlinear dataset
+5. explained variance ratio
+6. vanilla PCA
+7. Incremental PCA
+8. Randomized PCA
+9. Kernel PCA
+10. dimensionality reduction algorithm
+11. training set and test set
+12. MNIST dataset
+13. Random Forest classifier
+14. time how long it takes
+15. evaluate the resulting model
+16. reduced dataset's dimensionality
+17. explained variance ratio of 95%
+18. new Random Forest classifier
+19. training much faster
+20. evaluate the classifier on the test set
+21. t-SNE to reduce the MNIST dataset
+22. scatterplot using 10 different colors
+23. replace each dot in the scatterplot with
+24. corresponding instance's class
+25. class (a digit from 0 to 9)
+26. plot scaled-down versions of the digit images
+27. visualization with well-separated clusters
+28. try using other dimensionality reduction algorithms
+29. PCA, LLE, or MDS
+30. resulting visualizations
+31. dimensionality reduction techniques
+32. Random Projections
+33. Multidimensional Scaling (MDS)
+34. Isomap
+35. t-Distributed Stochastic Neighbor Embedding (t-SNE)
+36. Linear Discriminant Analysis (LDA)
+37. classification algorithm
+38. most discriminative axes between the classes
+39. hyperplane onto which to project the data
+40. benefit of this approach
+41. projection will keep classes as far apart as possible
+42. SVM classifier
+43. main drawbacks
+44. dimensionality reduction process
+45. computational complexity
+46. m log(m) n log(k)
+47. mnk3
+48. dm2
+49. O(m log(m) n log(k)) for finding the k nearest neighbors
+50. O(mnk3) for optimizing the weights
+51. O(dm2) for constructing the low-dimensional representations
+52. unfortunate consequence of dimensionality reduction
+53. very large datasets
+54. poor scaling to very large datasets
+55. many other dimensionality reduction techniques
+56. popular ones
+57. main goal of dimensionality reduction
+58. reducing a dataset's dimensionality
+59. dimensionality reduction algorithm performance evaluation
+60. evaluating the performance of a dimensionality reduction algorithm
+61. dimensionality reduction chain
+62. chaining two different dimensionality reduction algorithms
+63. make any sense to chain two different dimensionality reduction algorithms
+64. dataset's initial dimensionality
+65. target dimensionality
+66. number of instances
+67. explained variance ratio
+68. PCA on a 1,000-dimensional dataset
+69. setting the explained variance ratio to 95%
+70. resulting dataset will have
+71. many dimensions will be reduced
+72. many other techniques available in Scikit-Learn
+73. dimensionality reduction algorithm selection
+74. main motivations for reducing a dataset's dimensionality
+75. curse of dimensionality and its consequences

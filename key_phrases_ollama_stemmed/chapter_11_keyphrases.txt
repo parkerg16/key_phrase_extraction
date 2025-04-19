@@ -1,0 +1,77 @@
+here are the noun phrase extract from the text
+1 keyphras extractor
+2 deep net
+3 neural network
+4 auxiliari task
+5 learn rate schedul
+6 momentum optim
+7 nadam optim
+8 earli stop
+9 alpha dropout
+10 mc dropout
+11 uncertainti estim
+12 probabl estim
+13 risk sensit applic
+14 mobil devic
+15 embed devic
+16 tensorflow model optim toolkit
+17 cifar10 imag dataset
+18 deep neural network
+19 hidden layer
+20 he initi
+21 elu activ function
+22 selu activ function
+23 leaki relu activ function
+24 relu activ function
+25 tanh activ function
+26 logist activ function
+27 softmax activ function
+28 momentum hyperparamet
+29 sgd optim
+30 spars model
+31 1 regular
+32 tensorflow api
+33 custom loss function
+34 train algorithm
+35 low latenc model
+36 batch normal
+37 leaki relu variant
+38 risk sensit applic
+39 infer latenc
+40 uncertainti estim
+41 probabl estim
+42 mobil devic
+43 embed devic
+44 imag dataset
+45 neural network architectur
+46 hyperparamet
+47 learn rate
+48 train speed
+49 model accuraci
+50 1cycl schedul
+51 train algorithm
+52 loss function
+53 regular techniqu
+54 activ function
+55 momentum optim
+56 nadam optim
+57 earli stop
+58 alpha dropout
+59 mc dropout
+60 deep neural network
+61 hidden layer
+62 he initi
+63 elu activ function
+64 selu activ function
+65 leaki relu activ function
+66 relu activ function
+67 tanh activ function
+68 logist activ function
+69 softmax activ function
+70 momentum hyperparamet
+71 sgd optim
+72 spars model
+73 1 regular
+74 tensorflow model optim toolkit
+75 cifar10 imag dataset
+note that some of these phrase may be repeat or appear in differ form throughout the text but i ve tri to extract uniqu noun phrase up to a maximum of 75

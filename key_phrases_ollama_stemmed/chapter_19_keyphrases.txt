@@ -1,0 +1,76 @@
+base on the provid text i ve identifi up to 75 contigu noun phrase here they are
+1 keyphras extractor
+2 neural net architectur
+3 distribut strategi
+4 infrastructur
+5 cloud
+6 state of the art
+7 model parallel
+8 data parallel
+9 model serv
+10 grpc api
+11 rest api
+12 mobil devic
+13 embed devic
+14 quantiz awar train
+15 model server
+16 client code
+17 roll back
+18 virtual gpu
+19 black box hyperparamet tune
+20 googl cloud ai platform
+21 chapter 10
+22 event file
+23 metric name
+24 tensorboard callback
+25 monitor
+26 job s output
+27 ai platform job
+28 larg amount of data
+29 gc
+30 predict
+31 model on mobil devic
+32 tensorflow lite
+33 model parallel strategi
+34 data parallel strategi
+35 distribut train strategi
+36 central storag strategi
+37 decentr storag strategi
+38 central storag strategi
+39 decentr learn strategi
+40 mirror strategi
+41 central storag strategi
+42 mirror strategi
+43 tensorflow serv
+44 savedmodel
+45 model serv instanc
+46 grpc api queri
+47 rest api queri
+48 machin learn commun
+49 kaggl com
+50 ml cours
+51 paper
+52 confer
+53 expert
+54 concret project
+55 work increment
+56 piec by piec
+57 walk robot
+58 work chatbot
+59 wonder ml applic
+60 ai platform
+61 event file
+62 metric summari
+63 hyperparamet valu
+64 job s output directori
+65 train code
+66 command line argument
+67 worker machin
+68 gc data
+69 predict file
+70 model updat
+71 client code updat
+72 new version roll back
+73 previou version
+74 o reilli feedback channel
+75 github project

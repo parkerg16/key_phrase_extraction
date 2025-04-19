@@ -1,0 +1,75 @@
+train deep dnn
+avoid overfit
+hundr pictur person
+object high resolut
+build recogn face
+neuron present absent
+reus layer avoid
+detector like
+help tackl complex
+tricki vanish gradient
+featur use new
+backpropaga tion tweak
+fit memori
+task find
+converg good solut
+batch batch maliz
+run 10 000
+tri experi problem
+architectur sequenti unfortun
+part network figur
+popular logist sigmoid
+connect max norm
+reduc small one
+backend learn phase function
+compil loss mse
+surfac start slowli
+descent allow momentum
+adam realli depend
+spars model doe
+rang techniqu
+power schedul kera
+10 averag dimens
+fine occasion need
+creat mcdropout class
+common train
+instanc test set
+function weight
+latenc import applic
+exponenti decay fn histori
+simpl quadrat problem
+categori includ anim
+16 valid data
+deploy model mobil
+271 346
+chapter input
+lecun propos
+amplifi
+instead hyperparamet paramet
+overshoot oscil like
+tain mean
+updat run ning
+mean entir
+gener label data
+problem clip
+polyak 1964 13
+like did
+ent cost
+use 1cycl
+show definit
+replac leakyrelu alpha
+advantag selu activ
+numpi array support
+defin custom
+christian szegedi
+person work coffe
+paper algorithm research
+correct direct ear
+highli success state
+set nesterov true
+risk sensit medic
+gift keep give
+estim uncertainti estim
+die mean
+kernel initi izer he uniform
+ident tf oper

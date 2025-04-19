@@ -1,0 +1,47 @@
+accuraci
+cross-valid
+area under the curv
+auc
+binari classifi
+error analysi
+multiclass classif
+multilabel classif
+multioutput classif
+perform measur
+confus matrix
+skew dataset
+decis function
+f1 score
+fals posit rate
+fpr
+fold
+gradient descent
+gd
+stochast gradient descent
+harmon mean
+k-fold cross-valid
+approach to train
+precis
+recal
+roc curv
+multinomi classifi
+randint ( ) function
+one-versus-al
+ova
+one-versus-on
+ovo
+one-versus-the-rest
+ovr
+onlin learn
+sgd
+receiv oper characterist
+roc
+comput classifi metric
+cross_val_scor ( ) function
+sgdclassifi class
+sensit
+train model
+true neg rate
+tnr
+true posit rate
+tpr

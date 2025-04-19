@@ -1,0 +1,128 @@
+hyperbol tangent
+tanh
+logist
+sigmoid
+rectifi linear unit function
+relu
+softmax
+softplu
+fine-tun hyperparamet
+from biolog to artifici neuron
+implement mlp with kera
+artifici neuron
+automat differenti
+autodiff
+automl
+backpropag
+batch size
+bia neuron
+biolog neural network
+bnn
+biolog neuron
+break the symmetri
+callback
+chain rule
+classif mlp
+imag classifi use sequenti api
+multitask classif
+connection
+cross-entropi loss
+log loss
+mean absolut error
+mae
+mean squar error
+fashion mnist dataset
+deep neural network
+dnn
+deep neuroevolut
+dens layer
+dynam model
+epoch
+event file
+exclus or
+xor
+feedforward neural network
+fnn
+forward pass
+fulli connect layer
+function api
+hdf5 format
+heavisid step function
+hebb 's rule
+hebbian learn
+hidden layer in mlp
+neuron per hidden layer
+huber loss
+hypera
+hyperband
+hyperbol tangent function
+hyperopt
+fine-tun for neural network
+learn rate
+python librari for optim
+imag classif
+use sequenti api
+input layer
+input neuron
+complex architectur
+implement mlp with
+keras.callback packag
+load dataset with
+multibackend kera
+save and restor model
+use code exampl from keras.io
+kera tuner
+kopt librari
+dens
+fulli connect
+hidden layer
+input layer
+output layer
+logic comput
+microsoft cognit toolkit
+cntk
+complex use function api
+dynam use subclass api
+save and restor
+use callback
+use tensorboard for visual
+regress mlp
+multipl output
+from biolog to artifici
+logic comput with
+per hidden layer
+nonsequenti neural network
+instal
+output layer
+paramet effici
+perceptron
+perceptron converg theorem
+proposit logic
+pytorch librari
+regress mlp use sequenti api
+restor model
+reverse-mod autodiff
+perceptron class
+scikit-optim
+tensorflow
+imag classifi
+regress mlp
+sklearn-deap
+softmax function
+softplu activ function
+spearmint librari
+step function
+subclass api
+summari
+symmetri break in backpropag
+talo librari
+tensorboard
+tensorflow playground
+pytorch librari and
+tf.kera
+tf.summari packag
+theano
+threshold logic unit
+tlu
+transfer learn
+wide & deep neural network

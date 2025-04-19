@@ -1,0 +1,90 @@
+softmax
+adversari learn
+alexnet
+anchor box
+autonom drive system
+averag pool layer
+averag precis
+ap
+bottleneck layer
+bound box prior
+classif and local
+color channel
+convolut kernel
+convolut layer
+filter
+memori requir
+stack multipl featur map
+tensorflow implement
+architectur of visual cortex
+cnn architectur
+object detect
+pool layer
+pretrain model for transfer learn
+pretrain model from kera
+resnet-34 use kera
+semant segment
+data augment
+depth concat layer
+depth radiu
+depthwis separ convolut
+equivari
+featur map
+fulli convolut network
+fcn
+global averag pool layer
+googlenet
+imag gener
+instanc segment
+invari
+implement resnet-34 with
+use pretrain model from
+lenet-5
+local respons normal
+local
+mask r-cnn
+max pool layer
+mean averag precis
+map
+mean averag precis
+rnn
+non-max suppress
+you onli look onc
+yolo
+object output
+pool kernel
+pretrain
+model from kera
+recurr neural network
+rnn
+region propos network
+rpn
+residu learn
+residu unit
+resnet
+residu network
+resnet-34 cnn
+se block
+se-incept
+se-resnet
+senet
+squeeze-and-excit network
+separ convolut
+sequenc
+shortcut connect
+single-shot learn
+skip connect
+softmax function
+stride
+subsampl
+convolut oper
+convolut layer
+transfer learn
+transpos convolut layer
+upsampl layer
+vggnet
+wordtre
+xception
+extrem incept
+zero pad
+zf net

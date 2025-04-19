@@ -1,0 +1,75 @@
+svm best explain
+linear nonlinear classif
+kernel underfit train
+classifi use 10thdegre
+linearsvc class linearsvr
+small valid set
+line class call
+petal width iri
+activ learn journal
+act like regular
+close horizont featur
+array unlik logist
+polyno mialfeatur
+coupl 2d vector
+use grid search
+trick explain
+smallor
+viola tion instanc
+regress outlier
+speed process accuraci
+far away decis
+explos number featur
+varieti techniqu outsid
+scale featur train
+ident matrix
+problem add featur
+insensit use scikit
+use gaussian rbf
+mod el
+network instead ii
+read stephen boyd
+sigmoid tanh a
+defin similar
+locat instanc dataset
+look hap
+hp
+know deriv dual
+violat probabl gen
+hard margin soft
+left figur plot
+x1x2 notic
+base liblinear
+sion boundari dimension
+result singl
+convex function
+chih jen
+set linearli separ
+gin train
+degre creat huge
+term p0
+great sort
+replac dot
+coef0 control model
+comput remain
+defin nc
+april 21 1998
+wp content upload
+defin neg
+actual doe help
+transform discuss polynomi
+use convent
+fit memori core
+sklearn pipelin import
+onlin
+hyperparamet hing default
+defin trade object
+averag number
+press 2004 watch
+solv primal number
+did chapter case
+use make moon
+start headach
+ment dna
+doe converg
+bord

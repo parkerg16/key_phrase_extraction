@@ -1,0 +1,76 @@
+here are 75 contigu noun phrase extract from the text
+1 cluster algorithm
+2 main applic
+3 k mean algorithm
+4 label propag techniqu
+5 larg dataset
+6 high dimension space
+7 one class svm algorithm
+8 novelti detect task
+9 anomali detect techniqu
+10 gaussian mixtur model
+11 dimension reduct method
+12 olivetti face dataset
+13 grayscal 64 64 pixel imag
+14 face recognit task
+15 k mean cluster algorithm
+16 stratifi sampl techniqu
+17 valid set
+18 test set
+19 person identif problem
+20 classif algorithm
+21 perform evalu metric
+22 dimension reduct tool
+23 princip compon analysi pca
+24 varianc preserv method
+25 anomali detect approach
+26 reconstruct error calcul
+27 modifi imag creation techniqu
+28 activ learn strategi
+29 cluster process
+30 densiti base spatial cluster
+31 featur extract techniqu
+32 kernel svm classifi
+33 high dimension space map
+34 margin hyperparamet
+35 probabl estim method
+36 novelti detect algorithm
+37 anomali detect model
+38 gaussian mixtur model
+39 expect maxim em algorithm
+40 iter cluster process
+41 densiti base cluster techniqu
+42 spatial proxim metric
+43 neighborhood graph construct
+44 kernel trick applic
+45 classif problem
+46 data preprocess step
+47 featur scale method
+48 train dataset select
+49 valid set creation
+50 test set evalu metric
+51 perform assess methodolog
+52 dimension reduct techniqu
+53 pca algorithm
+54 varianc preserv strategi
+55 anomali detect framework
+56 reconstruct error calcul method
+57 modifi imag gener techniqu
+58 activ learn approach
+59 cluster algorithm select
+60 featur extract method
+61 classif model train
+62 perform evalu metric
+63 olivetti face dataset preprocess
+64 dimension reduct step
+65 pca applic
+66 varianc preserv strategi
+67 anomali detect model train
+68 reconstruct error calcul
+69 modifi imag creation techniqu
+70 activ learn framework
+71 cluster process execut
+72 expect maxim em algorithm
+73 iter cluster techniqu
+74 densiti base spatial cluster method
+75 kernel svm classifi applic
