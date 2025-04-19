@@ -40,7 +40,7 @@ def main(train_model=False, model_path=None):
         model_path = str(root / "models" / "keybert" / "my_finetuned_model")
 
     # Step 4: Train keyword extraction or Test keyword extraction
-    run_script("scripts/keyword_extraction.py", [
+    run_script("scripts/keyword_tt_extraction.py", [
         "--input_dir", str(root / "data" / "processed_chunks"),
         "--output_dir", str(root / "data" / "keyphrases" / "train"),
         "--type", "train",

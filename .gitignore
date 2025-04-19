@@ -31,7 +31,7 @@ data/chunks/*
 *.bak
 
 # Evaluation results
-evaluation/results/
+scripts/evaluation/results/
 index_terms.txt
 
 # Models and checkpoints

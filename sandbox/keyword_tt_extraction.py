@@ -8,6 +8,8 @@ from colorama import Fore, init
 
 init(autoreset=True)
 
+# TEST FILE TO ALLOW FOR TRAINING A MODEL WITH THE PROVIDED TRAIN AND TEST CHAPTERS
+
 TRAIN_CHAPTERS = {'1', '2', '3', '4', '5', '7', '8', '9', '13', '14', '15', '16', '17', '18', '19'}
 TEST_CHAPTERS = {'6', '10', '11', '12'}
 
@@ -61,10 +63,10 @@ def main(args):
 
         keywords = kw_model.extract_keywords(
             text,
-            keyphrase_ngram_range=(1, 3),
+            keyphrase_ngram_range=(1, 8),
             stop_words='english',
             use_mmr=True,
-            diversity=0.7,
+            diversity=0.6,
             top_n=100
         )
 
