@@ -59,7 +59,9 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Stem extracted keyphrases")
-    parser.add_argument("--model_option", type=str, default="keybert", choices=["keybert", "ollama"], help="Run on 'keybert' or 'ollama' model")
+    parser.add_argument("--model_option", type=str, default="keybert", 
+                      choices=["keybert", "ollama", "deepseek", "tfidf", "tfidf_ollama"], 
+                      help="Run on 'keybert', 'ollama', 'deepseek', 'tfidf', or 'tfidf_ollama' model")
     # These are optional — will be overridden if not provided
     parser.add_argument("--input_dir", type=str, default=None, help="Directory containing extracted keyphrases")
     parser.add_argument("--output_dir", type=str, default=None, help="Directory to save stemmed keyphrases")

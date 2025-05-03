@@ -4,25 +4,62 @@ from nltk.tokenize import word_tokenize
 import re
 import logging
 import os
+import subprocess
+import sys
 from typing import List, Sequence, Optional
 
+# Set up logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
 # Setup NLTK resource directory
-nltk_data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'nltk_data')
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.abspath(os.path.join(script_dir, "../.."))
+nltk_data_dir = os.path.join(project_root, 'nltk_data')
+local_nltk_data_dir = os.path.join(script_dir, 'nltk_data')
+
+# Ensure directories exist
 os.makedirs(nltk_data_dir, exist_ok=True)
+os.makedirs(local_nltk_data_dir, exist_ok=True)
+
+# Add our data directories to NLTK's search path
 nltk.data.path.insert(0, nltk_data_dir)
+nltk.data.path.insert(0, local_nltk_data_dir)
 
-def download_nltk_resources():
-    resources = ['punkt']
-    for resource in resources:
+def check_and_download_nltk_resources():
+    """Check if required NLTK resources are available, and download them if not."""
+    resources_available = True
+    
+    # Check for punkt
+    try:
+        nltk.data.find('tokenizers/punkt')
+    except LookupError:
+        resources_available = False
+    
+    # Check for punkt_tab
+    try:
+        nltk.data.find('tokenizers/punkt_tab/english')
+    except LookupError:
+        resources_available = False
+    
+    # If resources are missing, run the download script
+    if not resources_available:
+        logger.warning("NLTK resources missing. Running download script...")
+        download_script = os.path.join(script_dir, 'download_nltk_resources.py')
+        subprocess.run([sys.executable, download_script], check=True)
+        
+        # Verify resources after download
         try:
-            nltk.data.find(f'tokenizers/{resource}')
-        except LookupError:
-            try:
-                nltk.download(resource, download_dir=nltk_data_dir, quiet=False)
-            except Exception as e:
-                logging.warning(f"Failed to download {resource}: {e}")
+            nltk.data.find('tokenizers/punkt')
+            nltk.data.find('tokenizers/punkt_tab/english')
+            logger.info("NLTK resources successfully downloaded!")
+        except LookupError as e:
+            logger.error(f"Still missing NLTK resources after download attempt: {e}")
+    
+    return resources_available
 
-download_nltk_resources()
+# Try to ensure NLTK resources are available
+check_and_download_nltk_resources()
 
 logger = logging.getLogger(__name__)
 

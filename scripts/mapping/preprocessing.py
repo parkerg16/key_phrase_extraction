@@ -28,7 +28,7 @@ def process_model(model: str, stemmed: bool):
     os.makedirs(out_base, exist_ok=True)
 
     if not os.path.exists(base):
-        print(f" Source directory not found: {base}")
+        print(f"Source directory not found: {base}")
         return
 
     for filename in os.listdir(base):
@@ -36,11 +36,11 @@ def process_model(model: str, stemmed: bool):
             in_file = os.path.join(base, filename)
             out_file = os.path.join(out_base, filename)
             sanitize_file(in_file, out_file)
-            print(f" Sanitized: {filename} → {out_file}")
+            print(f"Sanitized: {filename} -> {out_file}")
 
 def main():
     parser = argparse.ArgumentParser(description="Sanitize keyphrase files for concept mapping.")
-    parser.add_argument("--model", type=str, choices=["keybert", "ollama"], required=True)
+    parser.add_argument("--model", type=str, choices=["keybert", "ollama", "tfidf_ollama"], required=True)
     parser.add_argument("--stemmed", action="store_true", help="Use stemmed directory")
     args = parser.parse_args()
 
